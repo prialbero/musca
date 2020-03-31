@@ -8,7 +8,7 @@ public class Puerta{
     private List<Llave> listaLlaves = new ArrayList<>();
     private List<Llave> llavesProbadas = new ArrayList<>();
     private boolean abierta = false;
-    int [] idLlaves={1,2,3,5,6};
+    //int [] idLlaves={1,2,3,5,6};
 
     public Puerta(){
        listaLlaves.add(new Llave(1));
