@@ -10,7 +10,7 @@ public class GotprojectApplication {
 
 		int numLlaves = 5;
 		//simulación del proyecto
-		int[] idLlaves = {1, 2, 3, 5, 6};
+		int[] idLlaves = {3, 2, 5, 11, 9};
 		int alturaArbol = 3;
 
 		Llave[] combinacion = new Llave[numLlaves];
@@ -22,10 +22,18 @@ public class GotprojectApplication {
 		Puerta puerta = new Puerta();
 		//System.out.println("combinacion "+combinacion);
 		puerta.configurarPuerta(combinacion);
-		//se prueba la llave 1 en la puerta
-		Llave llave =new Llave(1);
-		puerta.probarLlave(llave);
+		//se cierra la puerta que inicialmente está abierta
 		puerta.cerrarPuerta();
+		//se prueba la llave  en la puerta
+		Llave llave =new Llave(3);
+		puerta.probarLlave(llave);
+		/*Cuando se abre la puerta se muestra un mensaje de apertura
+		 * y acceso al Trono de Hierro
+		 */
+		if(puerta.estaAbierta()){
+			puerta.mostrarCerradura();
+		}
+
 
 	}
 }
