@@ -16,9 +16,10 @@ public class Puerta{
     public void ConfigurarPuerta(Llave[] c){
         for(int i=0;i<c.length;i++){
             listaLlaves.insertar(c[i]);
-            System.out.println("arbol "+listaLlaves.profundidad());
+
         }
         Estado valorEstado = Estado.Config;
+       // System.out.println("arbol "+listaLlaves.profundidad());
     }
 
 }
