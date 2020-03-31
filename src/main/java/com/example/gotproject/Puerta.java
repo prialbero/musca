@@ -1,26 +1,24 @@
 package com.example.gotproject;
-
+import  com.example.gotproject.Arbol;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Puerta{
 
-    private List<Llave> listaLlaves = new ArrayList<>();
-    private List<Llave> llavesProbadas = new ArrayList<>();
-    private boolean abierta = false;
-    //int [] idLlaves={1,2,3,5,6};
+    private Arbol<Llave> listaLlaves = new Arbol<>();
+    private Arbol<Llave> llavesProbadas = new Arbol<>();
+    private boolean abierta;
+    private enum Estado{NoConfig, Abierta, Cerrada, Config};
 
     public Puerta(){
-       listaLlaves.add(new Llave(1));
-       listaLlaves.add(new Llave(2));
-       listaLlaves.add(new Llave(3));
-
-       Llave llave1 = new Llave(1);
-       Llave llave4 = new Llave(4);
-        llave1.compareTo(llave4);
-
-        System.out.println("llave "+llave4.getId()+" "+listaLlaves.contains(llave4));
+        Estado valorEstado = Estado.NoConfig;
     }
-
+    public void ConfigurarPuerta(Llave[] c){
+        for(int i=0;i<c.length;i++){
+            listaLlaves.insertar(c[i]);
+            System.out.println("arbol "+listaLlaves.profundidad());
+        }
+        Estado valorEstado = Estado.Config;
+    }
 
 }
