@@ -69,15 +69,11 @@ public class Puerta {
     //vaciar arboles
     public void vaciar() {
             //borrar dato del árbol
+        while(!listaLlaves.vacio())
             listaLlaves.borrar(listaLlaves.getRaiz());
 
-
-        //System.out.println("vaciado "+listaLlaves.profundidad());
-
-        /*for (int i = 0; i <= llavesProbadas.profundidad(); i++) {
-            //borrar dato que está en la posición i del array de llaves
-            llavesProbadas.borrar(conf.get(i));
-        }*/
+        while(!llavesProbadas.vacio())
+            llavesProbadas.borrar(llavesProbadas.getRaiz());
     }
 
     //cerrar la puerta
