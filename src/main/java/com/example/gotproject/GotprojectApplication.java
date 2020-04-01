@@ -8,10 +8,17 @@ public class GotprojectApplication {
 
 	public static void main(String[] args) {
 
+		int dimX = 6;
+		int dimY = 6;
+		int salaTrono = (dimX * dimY)-1;
 		int numLlaves = 5;
 		//simulación del proyecto
 		int[] idLlaves = {3, 2, 5, 11, 9};
 		int alturaArbol = 3;
+		int maxTurnos = 50;
+
+		//Creación del Mapa
+		Mapa mapa = new Mapa(salaTrono, dimX, dimY, alturaArbol);
 
 		Llave[] combinacion = new Llave[numLlaves];
 		for(int i=0; i<combinacion.length;i++){
