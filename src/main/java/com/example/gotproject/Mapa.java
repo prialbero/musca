@@ -5,11 +5,15 @@ public class Mapa {
     private Sala sala;
     private Puerta puertaTrono;
     private int totalSalas;
+    private int x;
+    private int y;
     private int cont;
     private int salaSalida;
     //Creación de las diferentes salas
     //el mapa tiene una matriz de salas
     public Mapa(int salaTrono, int dimX, int dimY, int alturaArbol){
+        this.x = dimX;
+        this.y = dimY;
         this.salaSalida = salaTrono;
         this.totalSalas = dimX * dimY;
         this.cont=0;
@@ -32,7 +36,13 @@ public class Mapa {
 
     //insertar la puerta en la sala de Trono
     public void insertarPuerta(Puerta puerta){
-        matrizSala[5][5].setPuerta(puerta);
+        for(int fila=0; fila<x;fila++){
+            for(int col=0; col<y;col++) {
+                if (matrizSala[fila][col].getIdSala() == salaSalida)
+                    matrizSala[fila][col].setPuerta(puerta);
+
+            }
+        }
     }
 
     public void procesar(){
