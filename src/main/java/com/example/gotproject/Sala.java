@@ -18,4 +18,12 @@ public class Sala {
     public void setIdSala(int idSala) {
         this.idSala = idSala;
     }
+
+    public Puerta getPuerta() {
+        return puerta;
+    }
+
+    public void setPuerta(Puerta puerta) {
+        this.puerta = puerta;
+    }
 }

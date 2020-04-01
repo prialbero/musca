@@ -31,6 +31,10 @@ public class GotprojectApplication {
 		puerta.configurarPuerta(combinacion);
 		//se cierra la puerta que inicialmente está abierta
 		puerta.cerrarPuerta();
+
+		//se añade la puerta al mapa (almacenada en la sala de salida del mapa)
+		mapa.insertarPuerta(puerta);
+
 		//se prueba la llave  en la puerta
 		Llave llave =new Llave(3);
 		puerta.probarLlave(llave);
