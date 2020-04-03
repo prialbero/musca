@@ -5,23 +5,21 @@ import java.util.*;
 
 public class Mapa {
     private Sala matrizSala[][];
-    private List<Sala> salasConLlaves;
     private Sala sala;
-    private Sala salaLlave;
+    private Queue<Llave> cincoLlaves;
     private Llave llave;
-    private Puerta puertaTrono;
     private int totalSalas;
     private int x;
     private int y;
     private int cont;
-    private List<Llave> totalLlavesMapa;
     private int salaSalida;
 
     //Creación de las diferentes salas
     //el mapa tiene una matriz de salas
     public Mapa(int salaTrono, int dimX, int dimY, int alturaArbol){
-        this.salasConLlaves=new ArrayList<>();
-        this.totalLlavesMapa=new ArrayList<>();
+        this.cincoLlaves=new LinkedList<>();
+        this.llave=new Llave();
+        this.sala=new Sala();
         this.x = dimX;
         this.y = dimY;
         this.salaSalida = salaTrono;
@@ -37,7 +35,15 @@ public class Mapa {
         }
 
     }
-
+    public Sala obtenerSala(int f, int c){
+        for (int fila = 0; fila < x; fila++) {
+            for (int col = 0; col < y; col++) {
+                if(matrizSala[fila][col] == matrizSala[f][c])
+                    sala = matrizSala[fila][col];
+            }
+        }
+        return sala;
+    }
 
     //El mapa hace la generación de las llaves y las distribuye de 5 en 5 en las salas asignadas al principio
     public void distribuirLlaves(int[] idSalasLlaves){
@@ -45,37 +51,23 @@ public class Mapa {
          *las llaves con id impar serán duplicadas: en total serán 45 llaves
          * conjunto de llaves ordenado por identificador
          */
-        int[] provisional = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29};
-        int id=0;
-        for(int i=0;i<45;i++) {
-            if(provisional[id]%2==0){
-                llave = new Llave(provisional[id]);
-                totalLlavesMapa.add(llave);
-                id++;
-            }
-            else{
-                llave = new Llave(provisional[id]);
-                totalLlavesMapa.add(llave);
-                i++;
-                llave = new Llave(provisional[id]);
-                totalLlavesMapa.add(llave);
-                id++;
+        sala.generarLlaves();
+
+        for(int id=0;id<idSalasLlaves.length;id++) {
+            for (int fila = 0; fila < x; fila++) {
+                for (int col = 0; col < y; col++) {
+                    if (matrizSala[fila][col].getIdSala() == idSalasLlaves[id]){
+                        for(int n=0;n<5;n++){
+                            llave = sala.primeraLlave();
+                            cincoLlaves.add(llave);
+                            sala.eliminarLlaveSala();
+                        }
+                        matrizSala[fila][col].setLlavesEnSala(cincoLlaves);
+                       System.out.println("sala "+matrizSala[fila][col].getIdSala()+" llaves "+matrizSala[fila][col].getLlavesEnSala());
+                    }
+                }
             }
         }
-
-            //recorrer las 9 salas asignadas en la simulación y pasarlas a un array de objeto sala
-            for(int i=0;i<idSalasLlaves.length;i++) {
-                salaLlave = new Sala(idSalasLlaves[i]);
-                salasConLlaves.add(salaLlave);
-                }
-            int idl=0;
-            int ids=0;
-            /*while(!totalLlavesMapa.isEmpty()){
-                //salasConLlaves.set(ids,totalLlavesMapa.get(idl));
-                if(idl%5==0) ids++;
-                idl++;
-                //System.out.println("sala con llaves "+salasConLlaves.get(ids));
-            }*/
     }
 
 
