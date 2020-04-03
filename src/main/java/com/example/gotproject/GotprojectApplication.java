@@ -26,6 +26,10 @@ public class GotprojectApplication {
 			//System.out.println("combinacion "+combinacion[i].getId());
 		}
 
+		//Generar las llaves en el mapa y distribuirlas
+		int[] idSalasConLlave={3,4,6,8,9,10,11,12,13};
+		mapa.distribuirLlaves(idSalasConLlave);
+
 		Puerta puerta = new Puerta();
 		//System.out.println("combinacion "+combinacion);
 		puerta.configurarPuerta(combinacion);

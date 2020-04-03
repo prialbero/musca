@@ -5,6 +5,9 @@ import java.util.Objects;
 public class Llave implements Comparable<Llave>{
     private int id;
 
+    public Llave(){
+
+    }
     public Llave(int id){
 
         this.id=id;
