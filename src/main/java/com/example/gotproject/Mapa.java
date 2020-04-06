@@ -62,9 +62,9 @@ public class Mapa {
                        // System.out.println("sala "+matrizSala[fila][col].getIdSala());
                         //System.out.println("llaves: ");
                         for(int n=0;n<5;n++){
-                            llave = sala.primeraLlave();
+                            llave = this.primeraLlave();
                             cincoLlaves.add(llave);
-                            sala.eliminarLlave();
+                            this.eliminarLlave();
                         }
                         matrizSala[fila][col].setLlavesEnSala(cincoLlaves);
                     }
@@ -81,6 +81,15 @@ public class Mapa {
             }
         }
     }
+    //devolver la primera llave
+    public Llave primeraLlave(){
+        return llavesEnSala.peek();
+    }
+    //eliminar la primera llave
+    public void eliminarLlave(){
+        llavesEnSala.poll();
+    }
+
     //insertar la puerta en la sala de Trono asignada al principio de la simulación
     public void insertarPuerta(Puerta puerta){
         for(int fila=0; fila<x;fila++){
