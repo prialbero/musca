@@ -49,16 +49,6 @@ public class Sala {
         this.llavesEnSala = llavesEnSala;
     }
 
-    public void generarLlaves(){
-        for(int i=0;i<30;i++){
-            llavesEnSala.add(new Llave(i));
-            if(i % 2 != 0){
-                llavesEnSala.add(new Llave(i));
-            }
-
-        }
-        //System.out.println("llaves "+llavesEnSala);
-    }
 
 
     //devolver la primera llave

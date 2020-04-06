@@ -7,6 +7,7 @@ public class Mapa {
     private Sala matrizSala[][];
     private Sala sala;
     private Queue<Llave> cincoLlaves;
+    private Queue<Llave> llavesEnSala;
     private Llave llave;
     private int totalSalas;
     private int x;
@@ -18,6 +19,7 @@ public class Mapa {
     //el mapa tiene una matriz de salas
     public Mapa(int salaTrono, int dimX, int dimY, int alturaArbol){
         this.cincoLlaves=new LinkedList<>();
+        this.llavesEnSala=new LinkedList<>();
         this.llave=new Llave();
         this.sala=new Sala();
         this.x = dimX;
@@ -51,8 +53,8 @@ public class Mapa {
          *las llaves con id impar serán duplicadas: en total serán 45 llaves
          * conjunto de llaves ordenado por identificador
          */
-        sala.generarLlaves();
 
+        this.generarLlaves();
         for(int id=0;id<idSalasLlaves.length;id++) {
             for (int fila = 0; fila < x; fila++) {
                 for (int col = 0; col < y; col++) {
@@ -71,7 +73,14 @@ public class Mapa {
         }
     }
 
-
+    public void generarLlaves(){
+        for(int i=0;i<30;i++){
+            llavesEnSala.add(new Llave(i));
+            if(i % 2 != 0){
+                llavesEnSala.add(new Llave(i));
+            }
+        }
+    }
     //insertar la puerta en la sala de Trono asignada al principio de la simulación
     public void insertarPuerta(Puerta puerta){
         for(int fila=0; fila<x;fila++){
