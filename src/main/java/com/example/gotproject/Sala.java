@@ -59,20 +59,14 @@ public class Sala {
         }
         //System.out.println("llaves "+llavesEnSala);
     }
-    public void insertarLlave(){
 
-    }
-    public boolean salaSinLlaves(){
-
-        return true;
-    }
 
     //devolver la primera llave
     public Llave primeraLlave(){
         return llavesEnSala.peek();
     }
     //eliminar la primera llave
-    public void eliminarLlaveSala(){
+    public void eliminarLlave(){
         llavesEnSala.poll();
     }
 }

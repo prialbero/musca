@@ -57,13 +57,14 @@ public class Mapa {
             for (int fila = 0; fila < x; fila++) {
                 for (int col = 0; col < y; col++) {
                     if (matrizSala[fila][col].getIdSala() == idSalasLlaves[id]){
+                       // System.out.println("sala "+matrizSala[fila][col].getIdSala());
+                        //System.out.println("llaves: ");
                         for(int n=0;n<5;n++){
                             llave = sala.primeraLlave();
                             cincoLlaves.add(llave);
-                            sala.eliminarLlaveSala();
+                            sala.eliminarLlave();
                         }
                         matrizSala[fila][col].setLlavesEnSala(cincoLlaves);
-                       System.out.println("sala "+matrizSala[fila][col].getIdSala()+" llaves "+matrizSala[fila][col].getLlavesEnSala());
                     }
                 }
             }

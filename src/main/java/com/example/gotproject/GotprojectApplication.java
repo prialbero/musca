@@ -5,6 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 public class GotprojectApplication {
+    /**
+     * Tipo enumerado que representa las 4 posibles direcciones en las que puede moverse un
+     * personaje.
+     */
+    enum Dir {S, E, N, O}
 
 	public static void main(String[] args) {
 
@@ -16,6 +21,7 @@ public class GotprojectApplication {
 		int[] idLlaves = {3, 2, 5, 11, 9};
 		int alturaArbol = 3;
 		int maxTurnos = 50;
+		int salaInicioStarks=10;
 
 		//Creación del Mapa
 		Mapa mapa = new Mapa(salaTrono, dimX, dimY, alturaArbol);
@@ -48,7 +54,15 @@ public class GotprojectApplication {
 		if(puerta.estaAbierta()){
 			puerta.mostrarCerradura();
 		}
-
+// Creación de personajes
+// Creación de Stark
+// Parámetros: nombre, marca, turno en el que debe comenzar a moverse y sala inicial
+        Stark starkE = new Stark("Eddard", 'E', 1, salaInicioStarks);
+// Creación de la ruta de Eddard:
+// (ruta:E: S S E E N E N E S E S S O S E E)
+       /* EDLineal<Dir> direccionesE = {Dir.S, Dir.S, Dir.E, Dir.E, Dir.N, Dir.E, Dir.N, Dir.E, Dir.S,
+                Dir.E, Dir.S, Dir.S, Dir.O, Dir.S, Dir.E, Dir.E};
+        starkE.asignarRuta(direccionesE);*/
 
 	}
 }
