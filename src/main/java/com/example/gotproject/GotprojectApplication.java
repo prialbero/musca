@@ -22,6 +22,9 @@ public class GotprojectApplication {
 		int alturaArbol = 3;
 		int maxTurnos = 50;
 		int salaInicioStarks=10;
+		int salaInicioTargaryen=25;
+		int salaInicioBaratheon=16;
+		int salaInicioLannister=30;
 
 		//Creación del Mapa
 		Mapa mapa = new Mapa(salaTrono, dimX, dimY, alturaArbol);
@@ -63,6 +66,15 @@ public class GotprojectApplication {
        /* EDLineal<Dir> direccionesE = {Dir.S, Dir.S, Dir.E, Dir.E, Dir.N, Dir.E, Dir.N, Dir.E, Dir.S,
                 Dir.E, Dir.S, Dir.S, Dir.O, Dir.S, Dir.E, Dir.E};
         starkE.asignarRuta(direccionesE);*/
+
+       //Creación de Targaryen
+		Targaryen targaryenD = new Targaryen("Daenerys", 'D', 1, salaInicioTargaryen);
+
+		//Creación de Baratheon
+		Baratheon baratheonR = new Baratheon("Robert", 'R', 1, salaInicioBaratheon);
+
+		//Creación de Lannister
+		Lannister lannisterT = new Lannister("Tyrion", 'T', 1, salaInicioLannister);
 
 	}
 }
