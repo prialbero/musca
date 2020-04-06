@@ -3,13 +3,19 @@ package com.example.gotproject;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.lang.reflect.Array;
+import java.nio.file.DirectoryIteratorException;
+
 
 public class GotprojectApplication {
-    /**
-     * Tipo enumerado que representa las 4 posibles direcciones en las que puede moverse un
-     * personaje.
-     */
-    enum Dir {S, E, N, O}
+	/**
+	 * Tipo enumerado que representa las 4 posibles direcciones en las que puede moverse un
+	 * personaje.
+	 */
+	enum Dir {S, E, N, O}
+	private static Dir[] direccionesE, direccionesD, direccionesR, direccionesT;
+
+
 
 	public static void main(String[] args) {
 
@@ -22,7 +28,7 @@ public class GotprojectApplication {
 		int alturaArbol = 3;
 		int maxTurnos = 50;
 		int salaInicioStarks=10;
-		int salaInicioTargaryen=25;
+		int salaInicioTargaryen=10;
 		int salaInicioBaratheon=16;
 		int salaInicioLannister=30;
 
@@ -63,18 +69,38 @@ public class GotprojectApplication {
         Stark starkE = new Stark("Eddard", 'E', 1, salaInicioStarks);
 // Creación de la ruta de Eddard:
 // (ruta:E: S S E E N E N E S E S S O S E E)
-       /* EDLineal<Dir> direccionesE = {Dir.S, Dir.S, Dir.E, Dir.E, Dir.N, Dir.E, Dir.N, Dir.E, Dir.S,
-                Dir.E, Dir.S, Dir.S, Dir.O, Dir.S, Dir.E, Dir.E};
-        starkE.asignarRuta(direccionesE);*/
+       direccionesE = new Dir[] {Dir.S, Dir.S, Dir.E, Dir.E, Dir.N, Dir.E, Dir.N, Dir.E, Dir.S,
+                Dir.E, Dir.S, Dir.S, Dir.O, Dir.S, Dir.E, Dir.E};
+        starkE.asignarRuta(direccionesE);
+      mapa.insertarPersonaje(starkE);
 
        //Creación de Targaryen
 		Targaryen targaryenD = new Targaryen("Daenerys", 'D', 1, salaInicioTargaryen);
+		//ruta Daenerys
+		direccionesD = new Dir[] {Dir.E, Dir.S, Dir.S, Dir.S, Dir.O, Dir.S, Dir.E, Dir.E, Dir.N,
+				Dir.E, Dir.S, Dir.S, Dir.E, Dir.E};
+		targaryenD.asignarRuta(direccionesD);
+		mapa.insertarPersonaje(targaryenD);
 
 		//Creación de Baratheon
 		Baratheon baratheonR = new Baratheon("Robert", 'R', 1, salaInicioBaratheon);
+		//ruta Robert
+		direccionesR = new Dir[] {Dir.N, Dir.N, Dir.N, Dir.E, Dir.S, Dir.E, Dir.N, Dir.N,
+				Dir.E, Dir.N, Dir.E, Dir.E, Dir.S, Dir.S, Dir.S, Dir.S, Dir.S};
+		baratheonR.asignarRuta(direccionesR);
+		mapa.insertarPersonaje(baratheonR);
 
 		//Creación de Lannister
 		Lannister lannisterT = new Lannister("Tyrion", 'T', 1, salaInicioLannister);
+		//ruta Tyrion
+		direccionesT = new Dir[] {Dir.N, Dir.N, Dir.O, Dir.N, Dir.N, Dir.O, Dir.S, Dir.O,
+				Dir.O, Dir.N, Dir.N, Dir.O, Dir.S, Dir.S, Dir.S, Dir.S, Dir.S,
+				Dir.E, Dir.E, Dir.E, Dir.E, Dir.E};
+		lannisterT.asignarRuta(direccionesT);
+		mapa.insertarPersonaje(lannisterT);
 
+		for (int i=0;i<maxTurnos;i++) {
+			mapa.procesar(i);
+		}
 	}
 }

@@ -1,5 +1,7 @@
 package com.example.gotproject;
 
+import java.lang.reflect.Array;
+
 public abstract class Personajes {
     protected String nombre;
     protected char marca;
@@ -51,5 +53,8 @@ public abstract class Personajes {
         this.salaInicio = salaInicio;
     }
 
+    public void asignarRuta(Enum[] direcciones){
+
+    }
 
 }
