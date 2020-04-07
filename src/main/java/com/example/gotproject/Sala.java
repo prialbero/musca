@@ -5,6 +5,7 @@ import java.util.*;
 public class Sala {
     private int idSala;
     private Puerta puerta;
+    private Queue<Personajes> personajesEnSala;
     private Queue<Llave> llavesEnSala;
     private Llave llave;
 
@@ -49,14 +50,11 @@ public class Sala {
         this.llavesEnSala = llavesEnSala;
     }
 
-
-
-    //devolver la primera llave
-    public Llave primeraLlave(){
-        return llavesEnSala.peek();
+    public Queue<Personajes> getPersonajesEnSala() {
+        return personajesEnSala;
     }
-    //eliminar la primera llave
-    public void eliminarLlave(){
-        llavesEnSala.poll();
+
+    public void setPersonajesEnSala(Queue<Personajes> personajesEnSala) {
+        this.personajesEnSala = personajesEnSala;
     }
 }
