@@ -11,7 +11,8 @@ public class Stark extends Personajes{
 
     public Stark(String nombreS, char marcaS, int turnoS, int salaInicioS) {
         super(nombreS,marcaS,turnoS,salaInicioS);
-       //System.out.println("clase stark: "+getNombre()+" marca: "+getMarca()+" turno: "+getTurno()+" sala inicio: "+getSalaInicio());
+
+
     }
 
 }

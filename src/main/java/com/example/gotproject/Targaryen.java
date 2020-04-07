@@ -7,7 +7,7 @@ public class Targaryen extends Personajes {
 
     public Targaryen(String nombreS, char marcaS, int turnoS, int salaInicioS) {
         super(nombreS,marcaS,turnoS,salaInicioS);
-       // System.out.println("clase Targaryen: "+getNombre()+" marca: "+getMarca()+" turno: "+getTurno()+" sala inicio: "+getSalaInicio());
+
     }
 
 

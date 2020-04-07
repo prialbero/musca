@@ -6,27 +6,21 @@ import java.util.Queue;
 import java.util.Vector;
 
 public abstract class Personajes {
-    private Mapa mapa;
-    private Sala sala;
-    private Queue<Enum> direccionesP;
-    enum Dir{N,S,E,O }
+
+    protected Queue<Enum> direccionesP;
     protected String nombre;
     protected char marca;
     protected int turno;
-    protected int salaInicio;
+    protected int salaActual;
 
     public Personajes(){
-        nombre="";
-        marca='\0';
-        turno=0;
-        salaInicio=0;
 
     }
     public Personajes(String nombreS, char marcaS, int turnoS, int salaInicioS) {
         this.nombre=nombreS;
         this.marca=marcaS;
         this.turno=turnoS;
-        this.salaInicio=salaInicioS;
+        this.salaActual=salaInicioS;
         direccionesP=new LinkedList<>();
     }
 
@@ -46,36 +40,21 @@ public abstract class Personajes {
         this.marca = marca;
     }
 
+
+    public int getSalaActual() {
+        return salaActual;
+    }
+
+    public void setSalaActual(int salaActual) {
+        this.salaActual = salaActual;
+    }
+
     public int getTurno() {
         return turno;
     }
 
     public void setTurno(int turno) {
         this.turno = turno;
-    }
-
-    public int getSalaInicio() {
-        return salaInicio;
-    }
-
-    public void setSalaInicio(int salaInicio) {
-        this.salaInicio = salaInicio;
-    }
-
-    public Mapa getMapa() {
-        return mapa;
-    }
-
-    public void setMapa(Mapa mapa) {
-        this.mapa = mapa;
-    }
-
-    public Sala getSala() {
-        return sala;
-    }
-
-    public void setSala(Sala sala) {
-        this.sala = sala;
     }
 
     public Queue<Enum> getDireccionesP() {
@@ -89,13 +68,19 @@ public abstract class Personajes {
     public void asignarRuta(Enum[] direcciones){
         int fila=0;
         int col=0;
-        sala=new Sala();
-        //System.out.println(marca);
         for (int i = 0; i < direcciones.length; i++) {
            direccionesP.add(direcciones[i]);
         }
-        //System.out.print(direccionesP);
         this.setDireccionesP(direccionesP);
     }
+
+     //mover personaje
+        public void mover(Mapa map){
+            System.out.println("donde estoy "+direccionesP.peek());
+            salaActual=map.CalcularCoord(salaActual, direccionesP.peek().toString());
+            direccionesP.poll();
+            System.out.println("personaje: "+this+" nueva sala"+salaActual);
+
+        }
 
 }
