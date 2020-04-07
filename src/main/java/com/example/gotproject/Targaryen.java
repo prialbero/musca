@@ -10,10 +10,6 @@ public class Targaryen extends Personajes {
        // System.out.println("clase Targaryen: "+getNombre()+" marca: "+getMarca()+" turno: "+getTurno()+" sala inicio: "+getSalaInicio());
     }
 
-    @Override
-    public void asignarRuta(Enum[] direcciones){
-        //System.out.println("ruta "+direcciones.length);
 
-    }
 
 }

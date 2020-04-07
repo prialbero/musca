@@ -14,10 +14,4 @@ public class Stark extends Personajes{
        //System.out.println("clase stark: "+getNombre()+" marca: "+getMarca()+" turno: "+getTurno()+" sala inicio: "+getSalaInicio());
     }
 
-    @Override
-    public void asignarRuta(Enum[] direcciones){
-       // System.out.println("ruta "+direcciones.length);
-
-    }
-
 }

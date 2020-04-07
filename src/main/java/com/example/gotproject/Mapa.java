@@ -6,6 +6,7 @@ import java.util.*;
 public class Mapa {
     private Sala matrizSala[][];
     private Sala sala;
+    private Puerta puerta;
     private Queue<Llave> cincoLlaves;
     private Queue<Llave> llavesEnSala;
     private Llave llave;
@@ -22,6 +23,7 @@ public class Mapa {
     //Creación de las diferentes salas
     //el mapa tiene una matriz de salas
     public Mapa(int salaTrono, int dimX, int dimY, int alturaArbol){
+        this.personajesEnSala=new LinkedList<>();
         this.cincoLlaves=new LinkedList<>();
         this.llavesEnSala=new LinkedList<>();
         this.llave=new Llave();
@@ -39,9 +41,7 @@ public class Mapa {
                 cont++;
             }
         }
-
     }
-
 
     public void generarLlaves(){
         for(int i=0;i<30;i++){
@@ -51,6 +51,7 @@ public class Mapa {
             }
         }
     }
+
     //devolver la primera llave
     public Llave primeraLlave(){
         return llavesEnSala.peek();
@@ -82,6 +83,29 @@ public class Mapa {
             }
         }
     }
+    Vector buscarSala(int id){
+        Vector v = new Vector();
+        for(int fila=0; fila<x;fila++) {
+            for (int col = 0; col < y; col++) {
+                if (matrizSala[fila][col].getIdSala() == id) {
+                    v.add(fila);
+                    v.add(col);
+                    v.add(id);
+                }
+            }
+        }
+        return v;
+    }
+
+    public Sala obtenerSala(int f, int c){
+        for (int fila = 0; fila < x; fila++) {
+            for (int col = 0; col < y; col++) {
+                if(matrizSala[fila][col] == matrizSala[f][c])
+                    sala.setIdSala(matrizSala[fila][col].getIdSala());
+            }
+        }
+        return sala;
+    }
 
     //insertar la puerta en la sala de Trono asignada al principio de la simulación
     public void insertarPuerta(Puerta puerta){
@@ -95,32 +119,37 @@ public class Mapa {
     }
 
     //insertar el personaje en el mapa
-    public void insertarPersonaje(Personajes personaje){
-        this.personajesEnSala=new LinkedList<>();
-       // System.out.println("personaje: "+personaje.getSalaInicio());
+    public void  insertarPersonaje(Personajes personaje){
         for(int fila=0; fila<x;fila++){
             for(int col=0; col<y;col++) {
                 if (matrizSala[fila][col].getIdSala() == personaje.getSalaInicio()) {
                     personajesEnSala.add(personaje);
-                    matrizSala[fila][col].setPersonajes(personajesEnSala);
+                    matrizSala[fila][col].setPersonajesEnSala(personajesEnSala);
+                    System.out.println("sala "+matrizSala[fila][col].getIdSala()+" personajes "+personajesEnSala);
                 }
             }
         }
-       // System.out.println("personaje: "+personajesEnSala);
-       // personajesEnSala.poll();
     }
 
     // El método procesar se ejecutará turno a turno, recorriendo el mapa desde la sala
     // de entrada hasta la de salida y los personajes almacenados en cada sala ejecutarán
     // sus acciones según orden de llegada
-    public void procesar(int turno){
+    public void procesar(int maxTurnos){
+        puerta=new Puerta();
         int idSala=0;
-        for(int fila=0; fila<x;fila++) {
-            for (int col = 0; col < y; col++) {
-                idSala = matrizSala[fila][col].getIdSala();
-                System.out.println("personaje en sala "+idSala+" "+matrizSala[fila][col].getPersonajes());
+        int t=0;
+        do {
+            /*System.out.println("Turno: "+t);
+            System.out.println("Mapa: "+salaSalida);
+            System.out.println("Puerta: "+puerta.estaAbierta());*/
+            for (int fila = 0; fila < x; fila++) {
+                for (int col = 0; col < y; col++) {
+                    idSala = matrizSala[fila][col].getIdSala();
+                    // System.out.println("personaje en sala "+idSala+" "+matrizSala[fila][col].getPersonajes());
+                }
             }
-        }
+            t++;
+        }while (t<maxTurnos || puerta.estaAbierta()==true);
     }
 
 }

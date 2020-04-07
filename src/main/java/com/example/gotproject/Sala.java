@@ -5,7 +5,7 @@ import java.util.*;
 public class Sala {
     private int idSala;
     private Puerta puerta;
-    private Queue<Personajes> personajes;
+    private Queue<Personajes> personajesEnSala;
     private Queue<Llave> llavesEnSala;
     private Llave llave;
 
@@ -50,11 +50,11 @@ public class Sala {
         this.llavesEnSala = llavesEnSala;
     }
 
-    public Queue<Personajes> getPersonajes() {
-        return personajes;
+    public Queue<Personajes> getPersonajesEnSala() {
+        return personajesEnSala;
     }
 
-    public void setPersonajes(Queue<Personajes> personajes) {
-        this.personajes = personajes;
+    public void setPersonajesEnSala(Queue<Personajes> personajesEnSala) {
+        this.personajesEnSala = personajesEnSala;
     }
 }

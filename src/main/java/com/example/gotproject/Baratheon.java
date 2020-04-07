@@ -10,9 +10,5 @@ public class Baratheon extends Personajes {
        // System.out.println("clase Baratheon: "+getNombre()+" marca: "+getMarca()+" turno: "+getTurno()+" sala inicio: "+getSalaInicio());
     }
 
-    @Override
-    public void asignarRuta(Enum[] direcciones){
-       // System.out.println("ruta "+direcciones.length);
 
-    }
 }

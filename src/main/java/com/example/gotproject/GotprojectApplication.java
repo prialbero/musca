@@ -12,7 +12,7 @@ public class GotprojectApplication {
 	 * Tipo enumerado que representa las 4 posibles direcciones en las que puede moverse un
 	 * personaje.
 	 */
-	enum Dir {S, E, N, O}
+	enum Dir {N,S,E,O}
 	private static Dir[] direccionesE, direccionesD, direccionesR, direccionesT;
 
 
@@ -27,10 +27,10 @@ public class GotprojectApplication {
 		int[] idLlaves = {3, 2, 5, 11, 9};
 		int alturaArbol = 3;
 		int maxTurnos = 50;
-		int salaInicioStarks=10;
-		int salaInicioTargaryen=10;
-		int salaInicioBaratheon=16;
-		int salaInicioLannister=30;
+		int salaInicioStarks=0;
+		int salaInicioTargaryen=0;
+		int salaInicioBaratheon=30;
+		int salaInicioLannister=35;
 
 		//Creación del Mapa
 		Mapa mapa = new Mapa(salaTrono, dimX, dimY, alturaArbol);
@@ -99,8 +99,7 @@ public class GotprojectApplication {
 		lannisterT.asignarRuta(direccionesT);
 		mapa.insertarPersonaje(lannisterT);
 
-		for (int i=0;i<maxTurnos;i++) {
-			mapa.procesar(i);
-		}
+			mapa.procesar(maxTurnos);
+
 	}
 }
