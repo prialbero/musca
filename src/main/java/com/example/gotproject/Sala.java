@@ -7,15 +7,14 @@ public class Sala {
     private Puerta puerta;
     private Queue<Personajes> personajesEnSala;
     private Queue<Llave> llavesEnSala;
-    private Llave llave;
+
 
     public Sala (){
-        this.idSala=0;
-        this.llavesEnSala = new LinkedList<>();
-        this.llave=new Llave();
     }
     public Sala(int id){
         this.idSala = id;
+        this.llavesEnSala = new LinkedList<>();
+        this.personajesEnSala=new LinkedList<>();
     }
 
     public int getIdSala() {
@@ -34,27 +33,36 @@ public class Sala {
         this.puerta = puerta;
     }
 
-    public Llave getLlave() {
-        return llave;
-    }
-
-    public void setLlave(Llave llave) {
-        this.llave = llave;
-    }
-
     public Queue<Llave> getLlavesEnSala() {
         return llavesEnSala;
     }
 
-    public void setLlavesEnSala(Queue<Llave> llavesEnSala) {
-        this.llavesEnSala = llavesEnSala;
+    public void setLlavesEnSala(Llave llave) {
+
+        llavesEnSala.add(llave);
     }
 
     public Queue<Personajes> getPersonajesEnSala() {
         return personajesEnSala;
     }
 
-    public void setPersonajesEnSala(Queue<Personajes> personajesEnSala) {
-        this.personajesEnSala = personajesEnSala;
+    public void setPersonajesEnSala(Personajes personajes) {
+        personajesEnSala.add(personajes);
+    }
+
+    public void procesarTurno(Mapa map){
+        while(!personajesEnSala.isEmpty()) {
+            personajesEnSala.peek().mover(map);
+            personajesEnSala.poll();
+        }
+
+    }
+    //devolver la primera llave
+    public Llave primeraLlave(){
+        return llavesEnSala.peek();
+    }
+    //eliminar la primera llave
+    public void eliminarLlave(){
+        llavesEnSala.poll();
     }
 }
