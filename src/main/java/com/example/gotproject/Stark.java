@@ -12,7 +12,7 @@ public class Stark extends Personajes{
     public Stark(String nombreS, char marcaS, int turnoS, int salaInicioS) {
         super(nombreS,marcaS,turnoS,salaInicioS);
 
-
     }
+
 
 }

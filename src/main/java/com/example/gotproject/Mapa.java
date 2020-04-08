@@ -75,6 +75,7 @@ public class Mapa {
             for(int col=0; col<y;col++) {
                 if (matrizSala[fila][col].getIdSala() == personaje.getSalaActual()) {
                     matrizSala[fila][col].setPersonajesEnSala(personaje);
+
                 }
             }
         }
@@ -141,6 +142,7 @@ public class Mapa {
                     matrizSala[fila][col].procesarTurno(this);
                 }
             }
+
             t++;
         }while (t<=maxTurnos);
     }

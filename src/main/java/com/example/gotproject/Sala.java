@@ -43,7 +43,7 @@ public class Sala {
     }
 
     public Queue<Personajes> getPersonajesEnSala() {
-        return personajesEnSala;
+        return personajesEnSala;  
     }
 
     public void setPersonajesEnSala(Personajes personajes) {
@@ -52,10 +52,9 @@ public class Sala {
 
     public void procesarTurno(Mapa map){
         while(!personajesEnSala.isEmpty()) {
-            personajesEnSala.peek().mover(map);
-            personajesEnSala.poll();
+            personajesEnSala.poll().mover(map);
+            //personajesEnSala.poll();
         }
-
     }
     //devolver la primera llave
     public Llave primeraLlave(){
