@@ -75,15 +75,12 @@ public abstract class Personajes {
     }
 
     public void mover(Mapa map){
-        System.out.println("donde estoy "+direccionesP.peek());
-        salaActual=map.CalcularCoord(salaActual, direccionesP.peek().toString());
-        direccionesP.poll();
-        System.out.println("personaje: "+this+" nueva sala"+salaActual);
-        this.turno=+1;
-        //Insertar el personaje en la sala actual
-        //map.insertarPersonaje(this);
-
+            this.salaActual = map.CalcularCoord(salaActual, direccionesP.peek().toString());
+            direccionesP.remove();
+            //Insertar el personaje en la sala actual
+            this.turno += 1;
+            System.out.println("personaje: " + this + " siguiente sala" + salaActual + " siguiente turno" + this.turno);
+            map.insertarPersonaje(this);
     }
-
-
+    
 }

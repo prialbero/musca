@@ -1,6 +1,7 @@
 package com.example.gotproject;
 
 import javax.swing.*;
+import java.security.spec.RSAOtherPrimeInfo;
 import java.util.*;
 
 public class Mapa {
@@ -75,7 +76,6 @@ public class Mapa {
             for(int col=0; col<y;col++) {
                 if (matrizSala[fila][col].getIdSala() == personaje.getSalaActual()) {
                     matrizSala[fila][col].setPersonajesEnSala(personaje);
-
                 }
             }
         }
@@ -95,7 +95,7 @@ public class Mapa {
     }
 
     if(movi=="S"){
-      if(corx<x){
+      if(corx<x-1){
         corx++;
         return (matrizSala[corx][cory].getIdSala());
       }
@@ -107,7 +107,7 @@ public class Mapa {
       }
     }
     else if(movi=="E"){
-      if(cory<y){
+      if(cory<y-1){
         cory++;
         return (matrizSala[corx][cory].getIdSala());
       }
@@ -139,10 +139,9 @@ public class Mapa {
             */
             for (int fila = 0; fila < x; fila++) {
                 for (int col = 0; col < y; col++) {
-                    matrizSala[fila][col].procesarTurno(this);
+                    matrizSala[fila][col].procesarTurno(this,t);
                 }
             }
-
             t++;
         }while (t<=maxTurnos);
     }

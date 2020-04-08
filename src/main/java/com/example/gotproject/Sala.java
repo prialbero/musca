@@ -50,11 +50,16 @@ public class Sala {
         personajesEnSala.add(personajes);
     }
 
-    public void procesarTurno(Mapa map){
-        while(!personajesEnSala.isEmpty()) {
-            personajesEnSala.poll().mover(map);
-            //personajesEnSala.poll();
-        }
+    public void procesarTurno(Mapa map,int turno){
+            int t = turno;
+            System.out.println("sala " + idSala);
+            int tam=personajesEnSala.size();
+            for(int i=0;i<tam;i++) {
+                if (t == personajesEnSala.peek().getTurno() && personajesEnSala.peek().direccionesP.size()!=0) {
+                    personajesEnSala.poll().mover(map);
+                }
+            }
+
     }
     //devolver la primera llave
     public Llave primeraLlave(){
