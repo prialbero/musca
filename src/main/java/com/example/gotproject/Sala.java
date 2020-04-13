@@ -57,13 +57,13 @@ public class Sala {
             int tam=personajesEnSala.size();
             for(int i=0;i<tam;i++) {
                 if (t == personajesEnSala.peek().getTurno()) {
-                    if(llavesEnSala.size()!=0) //si hay llaves en la sala el personaje recogerá la primera
-                        personajesEnSala.peek().inspeccionarSala(this);
+                       /* if (llavesEnSala.size() != 0) //si hay llaves en la sala el personaje recogerá la primera
+                            personajesEnSala.peek().inspeccionarSala(this);
 
-                    if(personajesEnSala.peek().salaActual==salaTrono)
-                        personajesEnSala.peek().cambiarEstadoPuerta(this);
-
-                    personajesEnSala.poll().mover(map,this,salaTrono);
+                        if (personajesEnSala.peek().salaActual == salaTrono)
+                            personajesEnSala.peek().cambiarEstadoPuerta(this);
+                        */
+                        personajesEnSala.poll().mover(map, this, salaTrono);
                 }
             }
     }

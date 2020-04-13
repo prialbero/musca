@@ -75,6 +75,9 @@ public abstract class Personajes {
     }
 
     public void mover(Mapa map, Sala s,int salaTrono){
+        inspeccionarSala(s);
+        if(salaActual==salaTrono)
+            cambiarEstadoPuerta(s);
         System.out.println("personaje: " + this + " sala actual" + salaActual + "turno actual" + this.turno);
             if(direccionesP.size()!=0) {
                 this.salaActual = map.CalcularCoord(salaActual, direccionesP.peek().toString());
@@ -91,9 +94,13 @@ public abstract class Personajes {
     }
 
     public void inspeccionarSala(Sala sala){
-        llaves.push(sala.primeraLlave());
-        //System.out.println("llaves "+this.nombre+" "+llaves);
-        sala.eliminarLlave();
+        if(!sala.getLlavesEnSala().isEmpty()) {
+            llaves.push(sala.primeraLlave());
+            //System.out.println("llaves "+this.nombre+" "+llaves);
+            sala.eliminarLlave();
+        }
     }
+
+
 
 }
