@@ -1,9 +1,7 @@
 package com.example.gotproject;
 
 import java.lang.reflect.Array;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Vector;
+import java.util.*;
 
 public abstract class Personajes {
 
@@ -12,6 +10,7 @@ public abstract class Personajes {
     protected char marca;
     protected int turno;
     protected int salaActual;
+    protected Stack<Llave> llaves;
 
     public Personajes(){
 
@@ -21,7 +20,8 @@ public abstract class Personajes {
         this.marca=marcaS;
         this.turno=turnoS;
         this.salaActual=salaInicioS;
-        direccionesP=new LinkedList<>();
+        this.direccionesP=new LinkedList<>();
+        this.llaves=new Stack<>();
     }
 
     public String getNombre() {
@@ -74,16 +74,26 @@ public abstract class Personajes {
         this.setDireccionesP(direccionesP);
     }
 
-    public void mover(Mapa map){
-        System.out.println("donde estoy "+direccionesP.peek());
-        salaActual=map.CalcularCoord(salaActual, direccionesP.peek().toString());
-        direccionesP.poll();
-        System.out.println("personaje: "+this+" nueva sala"+salaActual);
-        this.turno=+1;
-        //Insertar el personaje en la sala actual
-        //map.insertarPersonaje(this);
-
+    public void mover(Mapa map, Sala s,int salaTrono){
+        System.out.println("personaje: " + this + " sala actual" + salaActual + "turno actual" + this.turno);
+            if(direccionesP.size()!=0) {
+                this.salaActual = map.CalcularCoord(salaActual, direccionesP.peek().toString());
+                direccionesP.remove();
+                //Insertar el personaje en la sala actual
+                this.turno += 1;
+                map.insertarPersonaje(this);
+            }
     }
 
+    public void cambiarEstadoPuerta(Sala sala){
+        //probará la ultima llave que ha recogido en la sala
+        sala.getPuerta().probarLlave(llaves.peek());
+    }
+
+    public void inspeccionarSala(Sala sala){
+        llaves.push(sala.primeraLlave());
+        //System.out.println("llaves "+this.nombre+" "+llaves);
+        sala.eliminarLlave();
+    }
 
 }

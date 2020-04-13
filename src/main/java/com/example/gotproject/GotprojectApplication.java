@@ -97,6 +97,7 @@ public class GotprojectApplication {
 				Dir.O, Dir.N, Dir.N, Dir.O, Dir.S, Dir.S, Dir.S, Dir.S, Dir.S,
 				Dir.E, Dir.E, Dir.E, Dir.E, Dir.E};
 		lannisterT.asignarRuta(direccionesT);
+		lannisterT.llavesInicio(combinacion);
 		mapa.insertarPersonaje(lannisterT);
 
 			mapa.procesar(maxTurnos);
