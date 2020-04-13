@@ -50,23 +50,30 @@ public class Sala {
         personajesEnSala.add(personajes);
     }
 
-    public void procesarTurno(Mapa map,int turno){
+
+    public void procesarTurno(Mapa map,int turno,int salaTrono){
             int t = turno;
             System.out.println("sala " + idSala);
             int tam=personajesEnSala.size();
             for(int i=0;i<tam;i++) {
-                if (t == personajesEnSala.peek().getTurno() && personajesEnSala.peek().direccionesP.size()!=0) {
-                    personajesEnSala.poll().mover(map);
+                if (t == personajesEnSala.peek().getTurno()) {
+                    if(llavesEnSala.size()!=0) //si hay llaves en la sala el personaje recogerá la primera
+                        personajesEnSala.peek().inspeccionarSala(this);
+
+                    if(personajesEnSala.peek().salaActual==salaTrono)
+                        personajesEnSala.peek().cambiarEstadoPuerta(this);
+
+                    personajesEnSala.poll().mover(map,this,salaTrono);
                 }
             }
-
     }
+
     //devolver la primera llave
     public Llave primeraLlave(){
         return llavesEnSala.peek();
     }
     //eliminar la primera llave
     public void eliminarLlave(){
-        llavesEnSala.poll();
+        llavesEnSala.remove();
     }
 }

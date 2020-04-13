@@ -32,7 +32,6 @@ public class Puerta {
     //configuración de la puerta con la combinación de llaves
     //una vez configurada debe cerrarse la puerta
     public void configurarPuerta(Llave[] c) {
-
         for (int i = 0; i < c.length; i++) {
             conf.add(c[i]);
         }
@@ -50,7 +49,7 @@ public class Puerta {
             } //si no se ha probado y la llave forma parte de la combinación, se elimina de la misma
             else
                 if (listaLlaves.pertenece(k)) {
-                //System.out.println("pertenece a la combinacion "+listaLlaves.pertenece(k));
+                System.out.println("pertenece a la combinacion "+listaLlaves.pertenece(k));
                 llavesProbadas.insertar(k);
                 listaLlaves.borrar(k);
             }
@@ -63,7 +62,10 @@ public class Puerta {
 
     public boolean estaAbierta() {
             return this.esta == estado.Abierta;
+    }
 
+    public void abrirPuerta(){
+        this.esta = estado.Abierta;
     }
 
     //vaciar arboles
