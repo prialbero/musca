@@ -57,7 +57,6 @@ public class Puerta {
              * y si el numero de llaves internas es mayor o igual al numero de llaves finales
              */
         } else System.out.println("Puerta abierta");
-
     }
 
     public boolean estaAbierta() {
