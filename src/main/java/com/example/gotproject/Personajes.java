@@ -74,18 +74,11 @@ public abstract class Personajes {
         this.setDireccionesP(direccionesP);
     }
 
-    public void mover(Mapa map, Sala s,int salaTrono){
+    public void ejecutarAcciones(Mapa map, Sala s,int salaTrono){
         inspeccionarSala(s);
         if(salaActual==salaTrono)
             cambiarEstadoPuerta(s);
-        System.out.println("personaje: " + this + " sala actual" + salaActual + "turno actual" + this.turno);
-            if(direccionesP.size()!=0) {
-                this.salaActual = map.CalcularCoord(salaActual, direccionesP.peek().toString());
-                direccionesP.remove();
-                //Insertar el personaje en la sala actual
-                this.turno += 1;
-                map.insertarPersonaje(this);
-            }
+        mover(map);
     }
 
     public void cambiarEstadoPuerta(Sala sala){
@@ -101,6 +94,14 @@ public abstract class Personajes {
         }
     }
 
-
-
+    public void mover(Mapa map){
+        System.out.println("personaje: " + this + " sala actual" + salaActual + "turno actual" + this.turno);
+        if(direccionesP.size()!=0) {
+            this.salaActual = map.CalcularCoord(salaActual, direccionesP.peek().toString());
+            direccionesP.remove();
+            //Insertar el personaje en la sala actual
+            this.turno += 1;
+            map.insertarPersonaje(this);
+        }
+    }
 }
