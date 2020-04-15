@@ -57,7 +57,7 @@ public class Sala {
             int tam=personajesEnSala.size();
             for(int i=0;i<tam;i++) {
                 if (t == personajesEnSala.peek().getTurno()) {
-                        personajesEnSala.poll().ejecutarAcciones(map, this, salaTrono);
+                    personajesEnSala.poll().ejecutarAcciones(map, this, salaTrono);
                 }
             }
     }
