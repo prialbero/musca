@@ -13,8 +13,8 @@ public abstract class Personajes {
     protected Stack<Llave> llaves;
 
     public Personajes(){
-
     }
+
     public Personajes(String nombreS, char marcaS, int turnoS, int salaInicioS) {
         this.nombre=nombreS;
         this.marca=marcaS;
@@ -78,16 +78,20 @@ public abstract class Personajes {
         inspeccionarSala(s);
         if(salaActual==salaTrono)
             cambiarEstadoPuerta(s);
+        System.out.println("personaje: " + this + " sala actual" + salaActual + "turno actual" + this.turno);
         mover(map);
     }
 
     public void cambiarEstadoPuerta(Sala sala){
         //probará la ultima llave que ha recogido en la sala
-        sala.getPuerta().probarLlave(llaves.peek());
+        if(sala.getPuerta()!=null){
+            while(llaves.size()!=0)
+                sala.getPuerta().probarLlave(llaves.pop());
+        }
     }
 
     public void inspeccionarSala(Sala sala){
-        if(!sala.getLlavesEnSala().isEmpty()) {
+        if(!sala.getLlavesEnSala().isEmpty()){
             llaves.push(sala.primeraLlave());
             //System.out.println("llaves "+this.nombre+" "+llaves);
             sala.eliminarLlave();
@@ -95,12 +99,11 @@ public abstract class Personajes {
     }
 
     public void mover(Mapa map){
-        System.out.println("personaje: " + this + " sala actual" + salaActual + "turno actual" + this.turno);
         if(direccionesP.size()!=0) {
             this.salaActual = map.CalcularCoord(salaActual, direccionesP.peek().toString());
             direccionesP.remove();
-            //Insertar el personaje en la sala actual
             this.turno += 1;
+            //Insertar el personaje en la sala actual
             map.insertarPersonaje(this);
         }
     }

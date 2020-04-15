@@ -11,11 +11,20 @@ public class Puerta {
     //arbol que guarda las llaves usadas
     private Arbol<Llave> llavesProbadas;
 
+    private int alturaArbol;
     //tipo enumerado que define el estado de la puerta
-    private enum estado {NoConfig, Abierta, Cerrada, Config}
+    private enum estado {NoConfig, Abierta, Cerrada, Config};
 
-    ;
     private estado esta;
+
+    public int getAlturaArbol() {
+        return alturaArbol;
+    }
+
+    public void setAlturaArbol(int alturaArbol) {
+        this.alturaArbol = alturaArbol;
+    }
+
     /**
      * Entero que marca el limite superior de la profundidad que se necesita para abrir la puerta
      */
@@ -30,12 +39,12 @@ public class Puerta {
     }
 
     //configuración de la puerta con la combinación de llaves
-    //una vez configurada debe cerrarse la puerta
     public void configurarPuerta(Llave[] c) {
         for (int i = 0; i < c.length; i++) {
             conf.add(c[i]);
         }
-        this.esta = estado.Config;
+        //this.esta = estado.Config;
+        cerrarPuerta();
 
     }
 
@@ -46,16 +55,22 @@ public class Puerta {
             //la puerta comprueba si la llave se ha probado
             if (llavesProbadas.pertenece(k)) {
                 System.out.println("Ya se ha probado esta llave");
-            } //si no se ha probado y la llave forma parte de la combinación, se elimina de la misma
-            else
-                if (listaLlaves.pertenece(k)) {
-                System.out.println("pertenece a la combinacion "+listaLlaves.pertenece(k));
-                llavesProbadas.insertar(k);
-                listaLlaves.borrar(k);
             }
-            /**se abre la puerta si la profundidad de la combinacion es menor que el valor
+            //si no se ha probado y la llave forma parte de la combinación, se elimina de la misma
+            if (listaLlaves.pertenece(k)) {
+                    llavesProbadas.insertar(k);
+                    System.out.println("profundidad antes de borrar "+listaLlaves.profundidad());
+                    listaLlaves.borrar(k);
+                    System.out.println("profundidad despues de borrar "+listaLlaves.profundidad());
+            }
+            /**se abre la puerta si la profundidad de la combinacion es menor que el valor predeterminado
              * y si el numero de llaves internas es mayor o igual al numero de llaves finales
              */
+            if(listaLlaves.profundidad() < getAlturaArbol() && conf.size() >= (listaLlaves.NodoPadre()+listaLlaves.NodoHijo())){
+                System.out.println("condicion de apertura");
+                System.out.println("profundidad "+listaLlaves.profundidad());
+                abrirPuerta();
+            }
         } else System.out.println("Puerta abierta");
     }
 
@@ -81,13 +96,11 @@ public class Puerta {
     public void cerrarPuerta() {
         //se vacía la memoria  de llaves probadas y la puerta vuelve a su estado inicial
         vaciar();
-
         //recorrer array de configuración e insertar en árbol de combinación
 
         for(int i=0;i<conf.size();i++) {
             listaLlaves.insertar(conf.get(i));
         }
-        //cierra la puerta
         this.esta = estado.Cerrada;
     }
 
