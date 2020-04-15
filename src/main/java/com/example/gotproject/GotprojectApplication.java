@@ -16,7 +16,7 @@ public class GotprojectApplication {
 	 */
 	enum Dir {N,S,E,O}
 	private static Dir[] direccionesE, direccionesD, direccionesR, direccionesT;
-	private static Mapa mapa;
+	//private static Mapa mapa;
 	private static Stark starkE;
 	private static Targaryen targaryenD;
 	private static Baratheon baratheonR;
@@ -69,12 +69,13 @@ public class GotprojectApplication {
 			}
 
 		}
-		mapa.procesar(maxTurnos);
+		Mapa.procesar(maxTurnos);
 	}
 
 	public static void crearMapa(int dimX, int dimY, int salaTrono){
 		//Creación del Mapa
-		mapa = new Mapa(salaTrono, dimX, dimY);
+		//mapa = new Mapa(salaTrono, dimX, dimY);
+		Mapa mapa= Mapa.crearMapa(salaTrono, dimX, dimY);
 	}
 
 	public static void generarLlaves(){
@@ -87,7 +88,7 @@ public class GotprojectApplication {
 
 		//Generar las llaves en el mapa y distribuirlas
 		int[] idSalasConLlave={3,4,6,8,9,10,11,12,13};
-		mapa.distribuirLlaves(idSalasConLlave);
+		Mapa.distribuirLlaves(idSalasConLlave);
 	}
 	public static void crearPuerta(){
 		Puerta puerta = new Puerta();
@@ -96,7 +97,7 @@ public class GotprojectApplication {
 		puerta.cerrarPuerta();
 
 		//se añade la puerta al mapa (almacenada en la sala de salida del mapa)
-		mapa.insertarPuerta(puerta, alturaArbol);
+		Mapa.insertarPuerta(puerta, alturaArbol);
 
 		//se prueba la llave  en la puerta
 		Llave llave =new Llave(3);
@@ -118,7 +119,7 @@ public class GotprojectApplication {
 				Dir.E, Dir.E, Dir.E, Dir.E, Dir.E};
 		lannisterT.asignarRuta(direccionesT);
 		lannisterT.llavesInicio(combinacion);
-		mapa.insertarPersonaje(lannisterT);
+		Mapa.insertarPersonaje(lannisterT);
 	}
 
 	public static void crearStark(String nombre, char marca, int turno){
@@ -130,7 +131,7 @@ public class GotprojectApplication {
 		direccionesE = new Dir[] {Dir.S, Dir.S, Dir.E, Dir.E, Dir.N, Dir.E, Dir.N, Dir.E, Dir.S,
 				Dir.E, Dir.S, Dir.S, Dir.O, Dir.S, Dir.E, Dir.E};
 		starkE.asignarRuta(direccionesE);
-		mapa.insertarPersonaje(starkE);
+		Mapa.insertarPersonaje(starkE);
 	}
 
 	public static void crearTargaryen(String nombre, char marca, int turno){
@@ -140,7 +141,7 @@ public class GotprojectApplication {
 		direccionesD = new Dir[] {Dir.E, Dir.S, Dir.S, Dir.S, Dir.O, Dir.S, Dir.E, Dir.E, Dir.N,
 				Dir.E, Dir.S, Dir.S, Dir.E, Dir.E};
 		targaryenD.asignarRuta(direccionesD);
-		mapa.insertarPersonaje(targaryenD);
+		Mapa.insertarPersonaje(targaryenD);
 	}
 
 	public static void crearBaratheon(String nombre, char marca, int turno){
@@ -150,6 +151,6 @@ public class GotprojectApplication {
 		direccionesR = new Dir[] {Dir.N, Dir.N, Dir.N, Dir.E, Dir.S, Dir.E, Dir.N, Dir.N,
 				Dir.E, Dir.N, Dir.E, Dir.E, Dir.S, Dir.S, Dir.S, Dir.S, Dir.S};
 		baratheonR.asignarRuta(direccionesR);
-		mapa.insertarPersonaje(baratheonR);
+		Mapa.insertarPersonaje(baratheonR);
 	}
 }
