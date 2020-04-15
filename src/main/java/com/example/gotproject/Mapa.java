@@ -16,7 +16,7 @@ public class Mapa {
 
     //Creación de las diferentes salas
     //el mapa tiene una matriz de salas
-    public Mapa(int salaTrono, int dimX, int dimY, int alturaArbol){
+    public Mapa(int salaTrono, int dimX, int dimY){
         this.cont=0;
         this.x = dimX;
         this.y = dimY;
@@ -60,11 +60,12 @@ public class Mapa {
     }
 
     //insertar la puerta en la sala de Trono asignada al principio de la simulación
-    public void insertarPuerta(Puerta puerta){
+    public void insertarPuerta(Puerta puerta, int alturaArbol){
         for(int fila=0; fila<x;fila++){
             for(int col=0; col<y;col++) {
                 if (matrizSala[fila][col].getIdSala() == salaSalida) {
                     matrizSala[fila][col].setPuerta(puerta);
+                    matrizSala[fila][col].getPuerta().setAlturaArbol(alturaArbol);
                 }
             }
         }
