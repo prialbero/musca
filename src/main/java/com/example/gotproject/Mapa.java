@@ -5,23 +5,27 @@ import java.security.spec.RSAOtherPrimeInfo;
 import java.util.*;
 
 public class Mapa {
-    private Sala matrizSala[][];
-    private int x;
-    private int y;
-    private int cont;
-    private int salaSalida;
+    private static Sala matrizSala[][];
+    private static int x;
+    private static int y;
+    private static int cont;
+    private static int salaSalida;
+    private static Mapa mapa;
 
-    public Mapa(){
+    private Mapa(){
     }
 
     //Creación de las diferentes salas
     //el mapa tiene una matriz de salas
-    public Mapa(int salaTrono, int dimX, int dimY){
-        this.cont=0;
-        this.x = dimX;
-        this.y = dimY;
-        this.salaSalida = salaTrono;
-        this.matrizSala = new Sala[dimX][dimY];
+    public synchronized static Mapa crearMapa(int salaTrono, int dimX, int dimY){
+        if(mapa==null){
+            mapa = new Mapa();
+        }
+        cont=0;
+        x = dimX;
+        y = dimY;
+        salaSalida = salaTrono;
+        matrizSala = new Sala[dimX][dimY];
         for(int fila=0; fila<dimX;fila++){
             for(int col=0; col<dimY;col++){
                Sala sala = new Sala(cont);
@@ -29,10 +33,11 @@ public class Mapa {
                 cont++;
             }
         }
+        return mapa;
     }
 
     //El mapa hace la generación de las llaves y las distribuye de 5 en 5 en las salas asignadas al principio
-    public void distribuirLlaves(int[] idSalasLlaves){
+    public static void distribuirLlaves(int[] idSalasLlaves){
         /**generación de las 30 llaves cuyos identificadores irán de 0 a 29
          *las llaves con id impar serán duplicadas: en total serán 45 llaves
          * conjunto de llaves ordenado por identificador
@@ -60,7 +65,7 @@ public class Mapa {
     }
 
     //insertar la puerta en la sala de Trono asignada al principio de la simulación
-    public void insertarPuerta(Puerta puerta, int alturaArbol){
+    public static void insertarPuerta(Puerta puerta, int alturaArbol){
         for(int fila=0; fila<x;fila++){
             for(int col=0; col<y;col++) {
                 if (matrizSala[fila][col].getIdSala() == salaSalida) {
@@ -72,7 +77,7 @@ public class Mapa {
     }
 
     //insertar el personaje en la sala
-    public void  insertarPersonaje(Personajes personaje){
+    public static void  insertarPersonaje(Personajes personaje){
         for(int fila=0; fila<x;fila++){
             for(int col=0; col<y;col++) {
                 if (matrizSala[fila][col].getIdSala() == personaje.getSalaActual()) {
@@ -132,7 +137,7 @@ public class Mapa {
      *
      */
 
-    public void procesar(int maxTurnos){
+    public static void procesar(int maxTurnos){
         int t=1;
         boolean puertaAbierta=false;
         do {
@@ -141,7 +146,7 @@ public class Mapa {
             */
             for (int fila = 0; fila < x; fila++) {
                 for (int col = 0; col < y; col++) {
-                    matrizSala[fila][col].procesarTurno(this,t,salaSalida);
+                    matrizSala[fila][col].procesarTurno(mapa,t,salaSalida);
                     //if(matrizSala[fila][col].getIdSala()==salaSalida && matrizSala[fila][col].getPuerta().estaAbierta()==true)
                       //  puertaAbierta=true;
                 }
