@@ -1,5 +1,7 @@
 package com.example.gotproject;
 
+import org.apache.log4j.Logger;
+
 import java.util.*;
 
 public class Sala {
@@ -7,7 +9,7 @@ public class Sala {
     private Puerta puerta;
     private Queue<Personajes> personajesEnSala;
     private Queue<Llave> llavesEnSala;
-
+    final static Logger logger = Logger.getLogger(Sala.class);
 
     public Sala (){
     }
@@ -53,7 +55,7 @@ public class Sala {
 
     public void procesarTurno(Mapa map,int turno,int salaTrono){
             int t = turno;
-            System.out.println("sala " + idSala);
+            logger.info("sala " + idSala);
             int tam=personajesEnSala.size();
             for(int i=0;i<tam;i++) {
                 if (t == personajesEnSala.peek().getTurno()) {

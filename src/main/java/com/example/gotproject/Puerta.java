@@ -1,5 +1,7 @@
 package com.example.gotproject;
 
+import org.apache.log4j.Logger;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,6 +18,7 @@ public class Puerta {
     private enum estado {NoConfig, Abierta, Cerrada, Config};
 
     private estado esta;
+    final static Logger logger = Logger.getLogger(Puerta.class);
 
     public int getAlturaArbol() {
         return alturaArbol;
@@ -54,24 +57,22 @@ public class Puerta {
         if (this.esta == estado.Cerrada) {
             //la puerta comprueba si la llave se ha probado
             if (llavesProbadas.pertenece(k)) {
-                System.out.println("Ya se ha probado esta llave");
+                logger.info("Ya se ha probado esta llave");
             }
             //si no se ha probado y la llave forma parte de la combinación, se elimina de la misma
             if (listaLlaves.pertenece(k)) {
                 llavesProbadas.insertar(k);
-                System.out.println("profundidad antes de borrar "+listaLlaves.profundidad());
                 listaLlaves.borrar(k);
-                System.out.println("profundidad despues de borrar "+listaLlaves.profundidad());
             }
             /**se abre la puerta si la profundidad de la combinacion es menor que el valor predeterminado
              * y si el numero de llaves internas es mayor o igual al numero de llaves finales
              */
             if(listaLlaves.profundidad() < getAlturaArbol() && conf.size() >= (listaLlaves.NodoPadre()+listaLlaves.NodoHijo())){
-                System.out.println("condicion de apertura");
-                System.out.println("profundidad "+listaLlaves.profundidad());
+                logger.info("condicion de apertura");
+                logger.info("profundidad "+listaLlaves.profundidad());
                 abrirPuerta();
             }
-        } else System.out.println("Puerta abierta");
+        } else logger.info("Puerta abierta");
     }
 
     public boolean estaAbierta() {

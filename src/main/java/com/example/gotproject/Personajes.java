@@ -1,5 +1,7 @@
 package com.example.gotproject;
 
+import org.apache.log4j.Logger;
+
 import java.lang.reflect.Array;
 import java.util.*;
 
@@ -11,6 +13,7 @@ public abstract class Personajes {
     protected int turno;
     protected int salaActual;
     protected Stack<Llave> llaves;
+    final static Logger logger = Logger.getLogger(Personajes.class);
 
     public Personajes(){
     }
@@ -78,7 +81,7 @@ public abstract class Personajes {
         inspeccionarSala(s);
         if(salaActual==salaTrono)
             cambiarEstadoPuerta(s);
-        System.out.println("personaje: " + this + " sala actual" + salaActual + "turno actual" + this.turno);
+        logger.info("personaje: " + this + " sala actual" + salaActual + "turno actual" + this.turno);
         mover(map);
     }
 
@@ -93,7 +96,7 @@ public abstract class Personajes {
     public void inspeccionarSala(Sala sala){
         if(!sala.getLlavesEnSala().isEmpty()){
             llaves.push(sala.primeraLlave());
-            //System.out.println("llaves "+this.nombre+" "+llaves);
+            logger.info("llaves "+this.nombre+" "+llaves);
             sala.eliminarLlave();
         }
     }
