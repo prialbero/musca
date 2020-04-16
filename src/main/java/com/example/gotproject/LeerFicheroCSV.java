@@ -17,7 +17,7 @@ public class LeerFicheroCSV {
         List<List<String>> arrayFichero;
         arrayFichero =  new ArrayList<>();
 
-        String csvFile = "C:/Users/prial/Desktop/musca/src/main/java/com/example/gotproject/inicio.csv";
+        String csvFile = "C:/Users/prial/Desktop/musca/src/main/resources/csv/inicio.csv";
         BufferedReader br = null;
         String line = "";
         String cvsSplitBy = ",";
