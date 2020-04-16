@@ -115,7 +115,15 @@ public class GotprojectApplication {
 			puerta.mostrarCerradura();
 		}
 	}
-
+    private static void logRuta(Dir[] direccion, char marca){
+        if(logger.isInfoEnabled()){
+            String rutap ="";
+            for(int i=0;i<direccion.length;i++){
+                rutap += direccion[i]+" ";
+            }
+            logger.info("Ruta: " + marca + ": " +rutap);
+        }
+    }
     private static void crearLannister(String nombre, char marca, int turno){
 		//Creación de Lannister
 		lannisterT = new Lannister(nombre, marca, turno, salaInicioLannister);
@@ -126,9 +134,7 @@ public class GotprojectApplication {
 		lannisterT.asignarRuta(direccionesT);
 		lannisterT.llavesInicio(combinacion);
 		Mapa.insertarPersonaje(lannisterT);
-        if(logger.isInfoEnabled()){
-            logger.info("Ruta: " + marca + ": " +direccionesT);
-        }
+       logRuta(direccionesT,marca);
 	}
 
     private static void crearStark(String nombre, char marca, int turno){
@@ -141,9 +147,7 @@ public class GotprojectApplication {
 				Dir.E, Dir.S, Dir.S, Dir.O, Dir.S, Dir.E, Dir.E};
 		starkE.asignarRuta(direccionesE);
 		Mapa.insertarPersonaje(starkE);
-        if(logger.isInfoEnabled()){
-            logger.info("Ruta: " + marca + ": " +direccionesE);
-        }
+        logRuta(direccionesE,marca);
 	}
 
     private static void crearTargaryen(String nombre, char marca, int turno){
@@ -154,9 +158,7 @@ public class GotprojectApplication {
 				Dir.E, Dir.S, Dir.S, Dir.E, Dir.E};
 		targaryenD.asignarRuta(direccionesD);
 		Mapa.insertarPersonaje(targaryenD);
-        if(logger.isInfoEnabled()){
-            logger.info("Ruta: " + marca + ": " +direccionesD);
-        }
+        logRuta(direccionesD,marca);
 	}
 
     private static void crearBaratheon(String nombre, char marca, int turno){
@@ -167,8 +169,6 @@ public class GotprojectApplication {
 				Dir.E, Dir.N, Dir.E, Dir.E, Dir.S, Dir.S, Dir.S, Dir.S, Dir.S};
 		baratheonR.asignarRuta(direccionesR);
 		Mapa.insertarPersonaje(baratheonR);
-        if(logger.isInfoEnabled()){
-            logger.info("Ruta: " + marca + ": " +direccionesR);
-        }
+        logRuta(direccionesR,marca);
 	}
 }
