@@ -142,7 +142,7 @@ public class GotprojectApplication {
 		starkE.asignarRuta(direccionesE);
 		Mapa.insertarPersonaje(starkE);
         if(logger.isInfoEnabled()){
-            logger.info("Ruta: " + marca + ": " +direccionesT);
+            logger.info("Ruta: " + marca + ": " +direccionesE);
         }
 	}
 
@@ -155,7 +155,7 @@ public class GotprojectApplication {
 		targaryenD.asignarRuta(direccionesD);
 		Mapa.insertarPersonaje(targaryenD);
         if(logger.isInfoEnabled()){
-            logger.info("Ruta: " + marca + ": " +direccionesT);
+            logger.info("Ruta: " + marca + ": " +direccionesD);
         }
 	}
 
@@ -168,7 +168,7 @@ public class GotprojectApplication {
 		baratheonR.asignarRuta(direccionesR);
 		Mapa.insertarPersonaje(baratheonR);
         if(logger.isInfoEnabled()){
-            logger.info("Ruta: " + marca + ": " +direccionesT);
+            logger.info("Ruta: " + marca + ": " +direccionesR);
         }
 	}
 }
