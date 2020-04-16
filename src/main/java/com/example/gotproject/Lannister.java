@@ -22,7 +22,6 @@ public class Lannister extends Personajes {
     @Override
     public void cambiarEstadoPuerta(Sala sala){
             sala.getPuerta().cerrarPuerta();
-           // System.out.println("puerta cerrada por "+this.nombre);
     }
 
     @Override
@@ -30,7 +29,7 @@ public class Lannister extends Personajes {
         //suelta las llaves que tiene cada vez que entra en una sala con id par, las pierde en orden inverso al que las ha recibido
         if(!llaves.isEmpty()){
             if(sala.getIdSala()%2==0) {
-                 System.out.println("Lannister suelta llave "+llaves.peek());
+                logger.info("Lannister suelta llave "+llaves.peek());
                 sala.setLlavesEnSala(llaves.pop());
             }
 
