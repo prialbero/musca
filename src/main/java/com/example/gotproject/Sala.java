@@ -53,13 +53,13 @@ public class Sala {
     }
 
 
-    public void procesarTurno(Mapa map,int turno,int salaTrono){
+    public void procesarTurno(int turno,int salaTrono){
             int t = turno;
             logger.info("sala " + idSala);
             int tam=personajesEnSala.size();
             for(int i=0;i<tam;i++) {
                 if (t == personajesEnSala.peek().getTurno()) {
-                    personajesEnSala.poll().ejecutarAcciones(map, this, salaTrono);
+                    personajesEnSala.poll().ejecutarAcciones(this, salaTrono);
                 }
             }
     }

@@ -36,7 +36,7 @@ public class GotprojectApplication {
 
 	public static void main(String[] args) throws Exception {
 
-		maxTurnos = 50;
+		maxTurnos = 25;
 		salaInicioStarks=0;
 		salaInicioTargaryen=0;
 		salaInicioBaratheon=30;

@@ -11,10 +11,10 @@ public class Lannister extends Personajes {
     }
 
     @Override
-    public void ejecutarAcciones(Mapa map, Sala s,int salaTrono){
+    public void ejecutarAcciones(Sala s,int salaTrono){
         if(salaActual==salaTrono)
             cambiarEstadoPuerta(s);
-        mover(map);
+        mover();
         inspeccionarSala(s);
 
     }
