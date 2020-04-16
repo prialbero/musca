@@ -1,5 +1,7 @@
 package com.example.gotproject;
 
+import org.apache.log4j.Logger;
+
 import javax.swing.*;
 import java.security.spec.RSAOtherPrimeInfo;
 import java.util.*;
@@ -11,7 +13,7 @@ public class Mapa {
     private static int cont;
     private static int salaSalida;
     private static Mapa mapa;
-
+    final static Logger logger = Logger.getLogger(Mapa.class);
     private Mapa(){
     }
 
@@ -141,9 +143,8 @@ public class Mapa {
         int t=1;
         boolean puertaAbierta=false;
         do {
-            System.out.println("Turno: "+t);
-           /* System.out.println("Mapa: "+salaSalida);
-            */
+            logger.info("(turno:"+t+")");
+            logger.info("(mapa:"+salaSalida+")");
             for (int fila = 0; fila < x; fila++) {
                 for (int col = 0; col < y; col++) {
                     matrizSala[fila][col].procesarTurno(mapa,t,salaSalida);

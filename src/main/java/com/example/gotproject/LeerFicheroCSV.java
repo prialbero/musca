@@ -1,49 +1,41 @@
 package com.example.gotproject;
 
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import com.opencsv.CSVParser;
+import com.opencsv.CSVParserBuilder;
+import com.opencsv.CSVReader;
+import com.opencsv.CSVReaderBuilder;
+
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class LeerFicheroCSV {
 
 
 
-    public static List<List<String>> leer() {
-        List<List<String>> arrayFichero;
-        arrayFichero =  new ArrayList<>();
+    public static List<String[]> oneByOne() throws Exception {
+        Reader reader = Files.newBufferedReader(Paths.get(
+                ClassLoader.getSystemResource("csv/inicio.csv").toURI()));
+        List<String[]> list = new ArrayList<>();
+        CSVParser parser = new CSVParserBuilder()
+                .withSeparator(',')
+                .withIgnoreQuotations(true)
+                .build();
 
-        String csvFile = "C:/Users/prial/Desktop/musca/src/main/resources/csv/inicio.csv";
-        BufferedReader br = null;
-        String line = "";
-        String cvsSplitBy = ",";
-
-        try {
-            br = new BufferedReader(new FileReader(csvFile));
-            while ((line = br.readLine()) != null) {
-
-                // use comma as separator
-                String[] linea = line.split(cvsSplitBy);
-                arrayFichero.add(Arrays.asList(linea));
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if (br != null) {
-                try {
-                    br.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
+        CSVReader csvReader = new CSVReaderBuilder(reader)
+                .withSkipLines(0)
+                .withCSVParser(parser)
+                .build();
+        String[] line;
+        while((line=csvReader.readNext()) != null){
+            list.add(line);
         }
-        return arrayFichero;
+        reader.close();
+        csvReader.close();
+        return list;
     }
 
     public static void main(String[] args) {
