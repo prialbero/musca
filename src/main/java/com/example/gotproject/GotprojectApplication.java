@@ -17,7 +17,6 @@ public class GotprojectApplication {
 	 */
 	enum Dir {N,S,E,O}
 	private static Dir[] direccionesE, direccionesD, direccionesR, direccionesT;
-	//private static Mapa mapa;
 	private static Stark starkE;
 	private static Targaryen targaryenD;
 	private static Baratheon baratheonR;
@@ -35,7 +34,7 @@ public class GotprojectApplication {
      */
     final static Logger logger = Logger.getLogger(GotprojectApplication.class);
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 
 		maxTurnos = 50;
 		salaInicioStarks=0;
@@ -43,38 +42,34 @@ public class GotprojectApplication {
 		salaInicioBaratheon=30;
 		salaInicioLannister=35;
 
-		List<List<String>> datosFichero = new ArrayList<>();
+		List<String[]> datosFichero;
 
-		LeerFicheroCSV leerFicheroCSV = new LeerFicheroCSV();
+		datosFichero = LeerFicheroCSV.oneByOne();
 
-		datosFichero = LeerFicheroCSV.leer();
-		//System.out.println("datos fichero "+datosFichero);
+		for(String[] datos : datosFichero) {
 
-		for(List<String> datos : datosFichero) {
-			if(!datos.isEmpty()){
-				if(datos.get(0).equals("MAPA")){
-					alturaArbol=Integer.parseInt(datos.get(4));
-					crearMapa(Integer.parseInt(datos.get(1)), Integer.parseInt(datos.get(2)),Integer.parseInt(datos.get(3)));
+				if(datos[0].equals("MAPA")){
+					alturaArbol=Integer.parseInt(datos[4]);
+					crearMapa(Integer.parseInt(datos[1]), Integer.parseInt(datos[2]),Integer.parseInt(datos[3]));
 					generarLlaves();
 					crearPuerta();
 				}
 				else{
-					if(datos.get(0).equals("LANNISTER")) {
-						crearLannister(datos.get(1), datos.get(2).charAt(0), Integer.parseInt(datos.get(3)));
+					if(datos[0].equals("LANNISTER")) {
+						crearLannister(datos[1], datos[2].charAt(0), Integer.parseInt(datos[3]));
 					}
-					else if(datos.get(0).equals("STARK")){
-						crearStark(datos.get(1),datos.get(2).charAt(0),Integer.parseInt(datos.get(3)));
+					else if(datos[0].equals("STARK")){
+						crearStark(datos[1],datos[2].charAt(0),Integer.parseInt(datos[3]));
 					}
-					else if(datos.get(0).equals("BARATHEON")){
-						crearBaratheon(datos.get(1),datos.get(2).charAt(0),Integer.parseInt(datos.get(3)));
+					else if(datos[0].equals("BARATHEON")){
+						crearBaratheon(datos[1],datos[2].charAt(0),Integer.parseInt(datos[3]));
 					}
-					else if(datos.get(0).equals("TARGARYEN")){
-						crearTargaryen(datos.get(1),datos.get(2).charAt(0),Integer.parseInt(datos.get(3)));
+					else if(datos[0].equals("TARGARYEN")){
+						crearTargaryen(datos[1],datos[2].charAt(0),Integer.parseInt(datos[3]));
 					}
 				}
 			}
-
-		}
+		logger.info("datos csv"+datosFichero);
 		Mapa.procesar(maxTurnos);
 	}
 
