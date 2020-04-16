@@ -1,5 +1,6 @@
 package com.example.gotproject;
 
+import org.apache.log4j.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -28,6 +29,11 @@ public class GotprojectApplication {
 	private static int salaInicioBaratheon;
 	private static Llave[] combinacion;
 	private static int maxTurnos;
+
+    /**
+     * Log con Log4J
+     */
+    final static Logger logger = Logger.getLogger(GotprojectApplication.class);
 
 	public static void main(String[] args) {
 
@@ -72,13 +78,13 @@ public class GotprojectApplication {
 		Mapa.procesar(maxTurnos);
 	}
 
-	public static void crearMapa(int dimX, int dimY, int salaTrono){
+	private static void crearMapa(int dimX, int dimY, int salaTrono){
 		//Creación del Mapa
 		//mapa = new Mapa(salaTrono, dimX, dimY);
 		Mapa mapa= Mapa.crearMapa(salaTrono, dimX, dimY);
 	}
 
-	public static void generarLlaves(){
+    private static void generarLlaves(){
 		int numLlaves = 15;
 		int[] idLlaves = {17,25,19,29,13,7,1,11,5,21,3,23,9,27,15};
 		combinacion = new Llave[numLlaves];
@@ -90,7 +96,7 @@ public class GotprojectApplication {
 		int[] idSalasConLlave={3,4,6,8,9,10,11,12,13};
 		Mapa.distribuirLlaves(idSalasConLlave);
 	}
-	public static void crearPuerta(){
+    private static void crearPuerta(){
 		Puerta puerta = new Puerta();
 		puerta.configurarPuerta(combinacion);
 		//se cierra la puerta que inicialmente está abierta
@@ -110,7 +116,7 @@ public class GotprojectApplication {
 		}
 	}
 
-	public static void crearLannister(String nombre, char marca, int turno){
+    private static void crearLannister(String nombre, char marca, int turno){
 		//Creación de Lannister
 		lannisterT = new Lannister(nombre, marca, turno, salaInicioLannister);
 		//ruta Tyrion
@@ -120,9 +126,12 @@ public class GotprojectApplication {
 		lannisterT.asignarRuta(direccionesT);
 		lannisterT.llavesInicio(combinacion);
 		Mapa.insertarPersonaje(lannisterT);
+        if(logger.isInfoEnabled()){
+            logger.info("Ruta: " + marca + ": " +direccionesT);
+        }
 	}
 
-	public static void crearStark(String nombre, char marca, int turno){
+    private static void crearStark(String nombre, char marca, int turno){
 		// Creación de Stark
 // Parámetros: nombre, marca, turno en el que debe comenzar a moverse y sala inicial
 		starkE = new Stark(nombre, marca, turno, salaInicioStarks);
@@ -132,9 +141,12 @@ public class GotprojectApplication {
 				Dir.E, Dir.S, Dir.S, Dir.O, Dir.S, Dir.E, Dir.E};
 		starkE.asignarRuta(direccionesE);
 		Mapa.insertarPersonaje(starkE);
+        if(logger.isInfoEnabled()){
+            logger.info("Ruta: " + marca + ": " +direccionesT);
+        }
 	}
 
-	public static void crearTargaryen(String nombre, char marca, int turno){
+    private static void crearTargaryen(String nombre, char marca, int turno){
 		//Creación de Targaryen
 		targaryenD = new Targaryen(nombre, marca, turno, salaInicioTargaryen);
 		//ruta Daenerys
@@ -142,9 +154,12 @@ public class GotprojectApplication {
 				Dir.E, Dir.S, Dir.S, Dir.E, Dir.E};
 		targaryenD.asignarRuta(direccionesD);
 		Mapa.insertarPersonaje(targaryenD);
+        if(logger.isInfoEnabled()){
+            logger.info("Ruta: " + marca + ": " +direccionesT);
+        }
 	}
 
-	public static void crearBaratheon(String nombre, char marca, int turno){
+    private static void crearBaratheon(String nombre, char marca, int turno){
 		//Creación de Baratheon
 		baratheonR = new Baratheon(nombre, marca, turno, salaInicioBaratheon);
 		//ruta Robert
@@ -152,5 +167,8 @@ public class GotprojectApplication {
 				Dir.E, Dir.N, Dir.E, Dir.E, Dir.S, Dir.S, Dir.S, Dir.S, Dir.S};
 		baratheonR.asignarRuta(direccionesR);
 		Mapa.insertarPersonaje(baratheonR);
+        if(logger.isInfoEnabled()){
+            logger.info("Ruta: " + marca + ": " +direccionesT);
+        }
 	}
 }
