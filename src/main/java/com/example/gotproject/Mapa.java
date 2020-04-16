@@ -12,17 +12,27 @@ public class Mapa {
     private static int y;
     private static int cont;
     private static int salaSalida;
-    private static Mapa mapa;
-    final static Logger logger = Logger.getLogger(Mapa.class);
-    private Mapa(){
-    }
+    private static Mapa mapa = null;
 
-    //Creación de las diferentes salas
-    //el mapa tiene una matriz de salas
-    public synchronized static Mapa crearMapa(int salaTrono, int dimX, int dimY){
-        if(mapa==null){
-            mapa = new Mapa();
+    final static Logger logger = Logger.getLogger(Mapa.class);
+
+    /** Patrón singleton
+     * la clase Mapa solo se instancia una vez
+     * al ser estático se puede acceder desde cualquier punto del proyecto
+     * desde las otras clases solo se debe hacer la llamada a Mapa.crearMapa();
+     */
+    public synchronized static Mapa crearMapa(int salaTrono, int dimX, int dimY) {
+        if (mapa == null) {
+            mapa = new Mapa(salaTrono, dimX, dimY);
         }
+        return mapa;
+    }
+    public static Mapa crearMapa(){return mapa;}
+
+    /**Creación de las diferentes salas
+    * el mapa tiene una matriz de salas
+     */
+    private Mapa(int salaTrono, int dimX, int dimY){
         cont=0;
         x = dimX;
         y = dimY;
@@ -35,7 +45,6 @@ public class Mapa {
                 cont++;
             }
         }
-        return mapa;
     }
 
     //El mapa hace la generación de las llaves y las distribuye de 5 en 5 en las salas asignadas al principio
@@ -147,7 +156,7 @@ public class Mapa {
             logger.info("(mapa:"+salaSalida+")");
             for (int fila = 0; fila < x; fila++) {
                 for (int col = 0; col < y; col++) {
-                    matrizSala[fila][col].procesarTurno(mapa,t,salaSalida);
+                    matrizSala[fila][col].procesarTurno(t,salaSalida);
                     //if(matrizSala[fila][col].getIdSala()==salaSalida && matrizSala[fila][col].getPuerta().estaAbierta()==true)
                       //  puertaAbierta=true;
                 }
