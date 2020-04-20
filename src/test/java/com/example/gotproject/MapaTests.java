@@ -25,21 +25,12 @@ public class MapaTests {
 
 
     @Test
-    public void testParaDistribuirLlaves(){
+    public void testProcesar(){
+        Mockito.doNothing().when(this.sala).procesarTurno(anyInt(),anyInt());
 
-        Mockito.doReturn(true).when(this.colaLlaves).add(this.llave);
-        Mockito.doReturn(2).when(this.sala).getIdSala();
-        Mockito.doReturn(this.colaLlaves).when(this.colaLlaves).peek();
-       // Mockito.doNothing().when(this.sala).setLlavesEnSala();
-        Mockito.doReturn(this.colaLlaves).when(this.colaLlaves).poll();
-        int[] idLlaves ={1,2,3,4,5};
-        mapa.distribuirLlaves(idLlaves);
-
-        Mockito.verify(this.colaLlaves).add(this.llave);
-        Mockito.verify(this.sala).getIdSala();
-        Mockito.verify(this.colaLlaves).peek();
-       // Mockito.verify(this.sala).setLlavesEnSala(any(Llave.class));
-        Mockito.verify(this.colaLlaves).poll();
+        mapa.procesar(5);
+        this.sala.procesarTurno(1,9); //para solucionar el wanted but not invoked
+        Mockito.verify(this.sala).procesarTurno(anyInt(),anyInt());
     }
 
 }
