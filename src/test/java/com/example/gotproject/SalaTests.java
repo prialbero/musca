@@ -26,7 +26,7 @@ public class SalaTests {
     @Mock
     private Queue<Llave> llavesEnSala;
     @InjectMocks
-    private Sala sala = new Sala();
+    private Sala sala;
 
 
     @Test
