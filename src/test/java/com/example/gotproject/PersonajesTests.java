@@ -1,5 +1,6 @@
 package com.example.gotproject;
 
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -23,12 +24,13 @@ public class PersonajesTests {
 
     @InjectMocks
     private Stark stark;
+    private Lannister lannister;
 
     @Test
     public void testCambiarEstadoPuerta() {
 
         Mockito.doReturn(this.puerta).when(this.sala).getPuerta();
-        Mockito.doReturn(7).when(this.llaves).size();
+        Mockito.doReturn(3).when(this.llaves).size();
         Mockito.doReturn(this.llave).when(this.llaves).pop();
         Mockito.doNothing().when(this.puerta).probarLlave(this.llave);
 
@@ -36,7 +38,9 @@ public class PersonajesTests {
 
         Mockito.verify(this.sala).getPuerta();
         Mockito.verify(this.llaves).size();
-        Mockito.verify(this.llaves).pop();
-        Mockito.verify(this.llaves.peek());
+        Mockito.verify(this.llaves,Mockito.times(3)).pop();
+        Mockito.verify(this.puerta,Mockito.times(3)).probarLlave(this.llave);
     }
+
+
 }
