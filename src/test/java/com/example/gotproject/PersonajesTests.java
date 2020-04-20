@@ -19,18 +19,17 @@ public class PersonajesTests {
     @Mock
     private Puerta puerta;
     @Mock
-    private Llave llave=new Llave();
+    private Llave llave;
 
     @InjectMocks
     private Stark stark;
 
     @Test
-    public void testCambiarEstadoPuerta(){
+    public void testCambiarEstadoPuerta() {
 
         Mockito.doReturn(this.puerta).when(this.sala).getPuerta();
         Mockito.doReturn(7).when(this.llaves).size();
-        Mockito.doReturn(this.llaves).when(this.llaves).pop();
-        Mockito.doReturn(this.llaves).when(this.llaves).peek();
+        Mockito.doReturn(this.llave).when(this.llaves).pop();
         Mockito.doNothing().when(this.puerta).probarLlave(this.llave);
 
         stark.cambiarEstadoPuerta(this.sala);

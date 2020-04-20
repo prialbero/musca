@@ -21,7 +21,7 @@ public class MapaTests {
     @Mock
     private Sala sala;
     @InjectMocks
-    private Mapa mapa = new Mapa(30,5,5);
+    private Mapa mapa = Mapa.crearMapa(30,5,5);
 
 
     @Test
