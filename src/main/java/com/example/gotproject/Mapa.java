@@ -7,7 +7,7 @@ import java.rmi.RemoteException;
 import java.security.spec.RSAOtherPrimeInfo;
 import java.util.*;
 
-public class Mapa extends Exception{
+public class Mapa{
     private static Sala matrizSala[][];
     private static int x;
     private static int y;
@@ -41,7 +41,8 @@ public class Mapa extends Exception{
 
         try {
             if(dimX<0 || dimY<0){
-                throw new NegativeArraySizeException("El array no puede ser negativo");
+                MyException myE = new MyException("El array no puede ser negativo");
+                throw myE;
             }
             matrizSala = new Sala[dimX][dimY];
             for (int fila = 0; fila < dimX; fila++) {
@@ -52,7 +53,7 @@ public class Mapa extends Exception{
                 }
             }
         }
-        catch (Exception e){
+        catch (MyException e){
             e.printStackTrace();
         }
     }
