@@ -71,12 +71,13 @@ public class GotprojectApplication {
 			}
 		logger.info("datos csv"+datosFichero);
 		Mapa.procesar(maxTurnos);
+
 	}
 
 	private static void crearMapa(int dimX, int dimY, int salaTrono){
 		//Creación del Mapa
 		//mapa = new Mapa(salaTrono, dimX, dimY);
-		Mapa mapa= Mapa.crearMapa(salaTrono, dimX, dimY);
+			Mapa.crearMapa(salaTrono, dimX, dimY);
 	}
 
     private static void generarLlaves(){

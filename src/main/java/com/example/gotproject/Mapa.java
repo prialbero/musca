@@ -3,10 +3,11 @@ package com.example.gotproject;
 import org.apache.log4j.Logger;
 
 import javax.swing.*;
+import java.rmi.RemoteException;
 import java.security.spec.RSAOtherPrimeInfo;
 import java.util.*;
 
-public class Mapa {
+public class Mapa extends Exception{
     private static Sala matrizSala[][];
     private static int x;
     private static int y;
@@ -32,18 +33,27 @@ public class Mapa {
     /**Creación de las diferentes salas
     * el mapa tiene una matriz de salas
      */
-    private Mapa(int salaTrono, int dimX, int dimY){
+    public Mapa(int salaTrono, int dimX, int dimY){
         cont=0;
         x = dimX;
         y = dimY;
         salaSalida = salaTrono;
-        matrizSala = new Sala[dimX][dimY];
-        for(int fila=0; fila<dimX;fila++){
-            for(int col=0; col<dimY;col++){
-               Sala sala = new Sala(cont);
-                matrizSala[fila][col] = sala;
-                cont++;
+
+        try {
+            if(dimX<0 || dimY<0){
+                throw new NegativeArraySizeException("El array no puede ser negativo");
             }
+            matrizSala = new Sala[dimX][dimY];
+            for (int fila = 0; fila < dimX; fila++) {
+                for (int col = 0; col < dimY; col++) {
+                    Sala sala = new Sala(cont);
+                    matrizSala[fila][col] = sala;
+                    cont++;
+                }
+            }
+        }
+        catch (Exception e){
+            e.printStackTrace();
         }
     }
 
@@ -54,6 +64,7 @@ public class Mapa {
          * conjunto de llaves ordenado por identificador
          */
         Queue<Llave> colaLlaves = new LinkedList<>();
+        int tamIdSalasLlaves=idSalasLlaves.length;
         for(int i=0;i<30;i++){
             colaLlaves.add(new Llave(i));
             if(i % 2 != 0){
@@ -61,7 +72,7 @@ public class Mapa {
             }
         }
 
-        for(int id=0;id<idSalasLlaves.length;id++) {
+        for(int id=0;id<tamIdSalasLlaves;id++) {
             for (int fila = 0; fila < x; fila++) {
                 for (int col = 0; col < y; col++) {
                     if (matrizSala[fila][col].getIdSala() == idSalasLlaves[id]){
@@ -135,6 +146,9 @@ public class Mapa {
         return (matrizSala[corx][cory].getIdSala());
       }
     }
+    else if(movi=="") {
+        return id;
+    }
     return id;
   }
 
@@ -148,10 +162,10 @@ public class Mapa {
      *
      */
 
-    public static void procesar(int maxTurnos){
-        int t=1;
+    public static void procesar(int maxTurnos) {
+        int t=0;
         boolean puertaAbierta=false;
-        do {
+        while (t<=maxTurnos || puertaAbierta==true) {
             logger.info("(turno:"+t+")");
             logger.info("(mapa:"+salaSalida+")");
             for (int fila = 0; fila < x; fila++) {
@@ -162,7 +176,7 @@ public class Mapa {
                 }
             }
             t++;
-        }while (t<=maxTurnos || puertaAbierta==true);
+        }
     }
 
 }

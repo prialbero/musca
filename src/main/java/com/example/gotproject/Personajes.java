@@ -93,6 +93,8 @@ public abstract class Personajes {
             for(int i=0; i<tam; i++)
                 puertaEnSala.probarLlave(llaves.pop());
         }
+        else
+            throw new NullPointerException("No hay puerta en la sala");
     }
 
     public void inspeccionarSala(Sala sala){
@@ -103,13 +105,16 @@ public abstract class Personajes {
         }
     }
 
-    public void mover(){
-        if(direccionesP.size()!=0) {
-            this.salaActual = Mapa.crearMapa().CalcularCoord(salaActual, direccionesP.peek().toString());
-            direccionesP.remove();
+    public void mover() {
+        String direccion;
+            if(direccionesP.isEmpty())
+                direccion = "";
+            else {
+                direccion = direccionesP.peek().toString();
+                direccionesP.remove();
+            }
+            this.salaActual = Mapa.crearMapa().CalcularCoord(salaActual, direccion);
             this.turno += 1;
-            //Insertar el personaje en la sala actual
             Mapa.crearMapa().insertarPersonaje(this);
-        }
     }
 }
