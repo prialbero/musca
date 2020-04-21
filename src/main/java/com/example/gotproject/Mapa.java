@@ -41,7 +41,7 @@ public class Mapa{
 
         try {
             if(dimX<0 || dimY<0){
-                MyException myE = new MyException("El array no puede ser negativo");
+                ExceptionMapa myE = new ExceptionMapa("El array no puede ser negativo");
                 throw myE;
             }
             matrizSala = new Sala[dimX][dimY];
@@ -53,7 +53,7 @@ public class Mapa{
                 }
             }
         }
-        catch (MyException e){
+        catch (ExceptionMapa e){
             e.printStackTrace();
         }
     }
