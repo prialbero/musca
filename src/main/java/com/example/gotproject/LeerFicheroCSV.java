@@ -16,9 +16,9 @@ public class LeerFicheroCSV {
 
 
 
-    public static List<String[]> oneByOne() throws Exception {
+    public static List<String[]> leerFicheroCSV() throws Exception {
         Reader reader = Files.newBufferedReader(Paths.get(
-                ClassLoader.getSystemResource("csv/inicio.csv").toURI()));
+                ClassLoader.getSystemResource("csv/start.csv").toURI()));
         List<String[]> list = new ArrayList<>();
         CSVParser parser = new CSVParserBuilder()
                 .withSeparator(',')
@@ -38,6 +38,5 @@ public class LeerFicheroCSV {
         return list;
     }
 
-    public static void main(String[] args) {
-    }
+
 }

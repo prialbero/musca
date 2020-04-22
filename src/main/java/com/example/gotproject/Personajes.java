@@ -88,13 +88,9 @@ public abstract class Personajes {
     public void cambiarEstadoPuerta(Sala sala){
         //probará la ultima llave que ha recogido en la sala
         Puerta puertaEnSala = sala.getPuerta();
-        if(puertaEnSala!=null){
-            int tam=llaves.size();
-            for(int i=0; i<tam; i++)
-                puertaEnSala.probarLlave(llaves.pop());
-        }
-        else
-            throw new NullPointerException("No hay puerta en la sala");
+        int tam = llaves.size();
+        for (int i = 0; i < tam; i++)
+            puertaEnSala.probarLlave(llaves.pop());
     }
 
     public void inspeccionarSala(Sala sala){

@@ -332,11 +332,5 @@ public class Arbol <T extends Comparable <T>> {
 			return m;
 	}
 	
-	/**
-	 * Metodo que main que realiza las pruebas con el Arbol.
-	 * @param args Argumentos del main
-	 */
-	public static void main(String[] args) {
 
-	}
 }

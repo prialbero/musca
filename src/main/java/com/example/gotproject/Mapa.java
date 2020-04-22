@@ -1,10 +1,8 @@
 package com.example.gotproject;
 
+import com.example.gotproject.exception.ExceptionMapa;
 import org.apache.log4j.Logger;
 
-import javax.swing.*;
-import java.rmi.RemoteException;
-import java.security.spec.RSAOtherPrimeInfo;
 import java.util.*;
 
 public class Mapa{
@@ -41,8 +39,7 @@ public class Mapa{
 
         try {
             if(dimX<0 || dimY<0){
-                ExceptionMapa myE = new ExceptionMapa("El array no puede ser negativo");
-                throw myE;
+                throw new ExceptionMapa("El array no puede ser negativo");
             }
             matrizSala = new Sala[dimX][dimY];
             for (int fila = 0; fila < dimX; fila++) {
