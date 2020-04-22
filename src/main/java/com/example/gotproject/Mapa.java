@@ -2,27 +2,58 @@ package com.example.gotproject;
 
 import com.example.gotproject.exception.ExceptionMapa;
 import org.apache.log4j.Logger;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.*;
 
+
 public class Mapa{
     private static Sala matrizSala[][];
-    private static int x;
-    private static int y;
+    private static int dimX;
+    private static int dimY;
     private static int cont;
-    private static int salaSalida;
+    private static int salaTrono;
     private static Mapa mapa = null;
 
     final static Logger logger = Logger.getLogger(Mapa.class);
+
+    public int getDimX() {
+        return dimX;
+    }
+
+    public void setDimX(int dimX) {
+        Mapa.dimX = dimX;
+    }
+
+    public int getDimY() {
+        return dimY;
+    }
+
+    public void setDimY(int dimY) {
+        Mapa.dimY = dimY;
+    }
+
+    public int getSalaTrono() {
+        return salaTrono;
+    }
+
+    public void setSalaTrono(int salaTrono) {
+        Mapa.salaTrono = salaTrono;
+    }
 
     /** Patrón singleton
      * la clase Mapa solo se instancia una vez
      * al ser estático se puede acceder desde cualquier punto del proyecto
      * desde las otras clases solo se debe hacer la llamada a Mapa.crearMapa();
      */
-    public synchronized static Mapa crearMapa(int salaTrono, int dimX, int dimY) {
+    public synchronized static Mapa crearMapa(int dimX, int dimY,int salaTrono) {
         if (mapa == null) {
-            mapa = new Mapa(salaTrono, dimX, dimY);
+            mapa = new Mapa(dimX, dimY,salaTrono);
         }
         return mapa;
     }
@@ -31,12 +62,12 @@ public class Mapa{
     /**Creación de las diferentes salas
     * el mapa tiene una matriz de salas
      */
-    public Mapa(int salaTrono, int dimX, int dimY){
-        cont=0;
-        x = dimX;
-        y = dimY;
-        salaSalida = salaTrono;
+    public Mapa(int x, int y, int salaT){
+        this.dimX=x;
+        this.dimY=y;
+        this.salaTrono=salaT;
 
+        cont=0;
         try {
             if(dimX<0 || dimY<0){
                 throw new ExceptionMapa("El array no puede ser negativo");
@@ -54,6 +85,9 @@ public class Mapa{
             e.printStackTrace();
         }
     }
+    public void Mapa(){
+    }
+
 
     //El mapa hace la generación de las llaves y las distribuye de 5 en 5 en las salas asignadas al principio
     public static void distribuirLlaves(int[] idSalasLlaves){
@@ -71,8 +105,8 @@ public class Mapa{
         }
 
         for(int id=0;id<tamIdSalasLlaves;id++) {
-            for (int fila = 0; fila < x; fila++) {
-                for (int col = 0; col < y; col++) {
+            for (int fila = 0; fila < dimX; fila++) {
+                for (int col = 0; col < dimY; col++) {
                     if (matrizSala[fila][col].getIdSala() == idSalasLlaves[id]){
                         for(int n=0;n<5;n++){
                             matrizSala[fila][col].setLlavesEnSala(colaLlaves.peek());
@@ -86,9 +120,9 @@ public class Mapa{
 
     //insertar la puerta en la sala de Trono asignada al principio de la simulación
     public static void insertarPuerta(Puerta puerta, int alturaArbol){
-        for(int fila=0; fila<x;fila++){
-            for(int col=0; col<y;col++) {
-                if (matrizSala[fila][col].getIdSala() == salaSalida) {
+        for(int fila=0; fila<dimX;fila++){
+            for(int col=0; col<dimY;col++) {
+                if (matrizSala[fila][col].getIdSala() == salaTrono) {
                     matrizSala[fila][col].setPuerta(puerta);
                     matrizSala[fila][col].getPuerta().setAlturaArbol(alturaArbol);
                 }
@@ -98,8 +132,8 @@ public class Mapa{
 
     //insertar el personaje en la sala
     public static void  insertarPersonaje(Personajes personaje){
-        for(int fila=0; fila<x;fila++){
-            for(int col=0; col<y;col++) {
+        for(int fila=0; fila<dimX;fila++){
+            for(int col=0; col<dimY;col++) {
                 if (matrizSala[fila][col].getIdSala() == personaje.getSalaActual()) {
                     matrizSala[fila][col].setPersonajesEnSala(personaje);
                 }
@@ -110,8 +144,8 @@ public class Mapa{
     public int CalcularCoord (int id,String movi){
     int i=0, j=0,corx=0,cory=0;
     boolean enc = false;
-    for ( i= 0; i<x && !enc; i++) {
-      for ( j= 0;j<y && !enc; j++) {
+    for ( i= 0; i<dimX && !enc; i++) {
+      for ( j= 0;j<dimY && !enc; j++) {
         if (matrizSala[i][j].getIdSala() == id){
           corx=i;
           cory=j;
@@ -121,7 +155,7 @@ public class Mapa{
     }
 
     if(movi=="S"){
-      if(corx<x-1){
+      if(corx<dimX-1){
         corx++;
         return (matrizSala[corx][cory].getIdSala());
       }
@@ -133,7 +167,7 @@ public class Mapa{
       }
     }
     else if(movi=="E"){
-      if(cory<y-1){
+      if(cory<dimY-1){
         cory++;
         return (matrizSala[corx][cory].getIdSala());
       }
@@ -165,10 +199,10 @@ public class Mapa{
         boolean puertaAbierta=false;
         while (t<=maxTurnos || puertaAbierta==true) {
             logger.info("(turno:"+t+")");
-            logger.info("(mapa:"+salaSalida+")");
-            for (int fila = 0; fila < x; fila++) {
-                for (int col = 0; col < y; col++) {
-                    matrizSala[fila][col].procesarTurno(t,salaSalida);
+            logger.info("(mapa:"+salaTrono+")");
+            for (int fila = 0; fila < dimX; fila++) {
+                for (int col = 0; col < dimY; col++) {
+                    matrizSala[fila][col].procesarTurno(t,salaTrono);
                     //if(matrizSala[fila][col].getIdSala()==salaSalida && matrizSala[fila][col].getPuerta().estaAbierta()==true)
                       //  puertaAbierta=true;
                 }

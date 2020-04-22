@@ -2,8 +2,10 @@ package com.example.gotproject.controller;
 
 import com.example.gotproject.*;
 import org.apache.log4j.Logger;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 @RestController
@@ -47,7 +49,7 @@ public class GotProjectController {
 
             if(datos[0].equals("MAPA")){
                 alturaArbol=Integer.parseInt(datos[4]);
-                crearMapa(Integer.parseInt(datos[1]), Integer.parseInt(datos[2]),Integer.parseInt(datos[3]));
+                //crearMapa(Integer.parseInt(datos[1]), Integer.parseInt(datos[2]),Integer.parseInt(datos[3]));
                 generarLlaves();
                 crearPuerta();
             }
@@ -68,14 +70,11 @@ public class GotProjectController {
         }
         logger.info("datos csv"+datosFichero);
         Mapa.procesar(maxTurnos);
-
     }
 
-    private static void crearMapa(int dimX, int dimY, int salaTrono){
-        //Creación del Mapa
-        //mapa = new Mapa(salaTrono, dimX, dimY);
-        Mapa.crearMapa(salaTrono, dimX, dimY);
-    }
+    /*private static void crearMapa(int dimX, int dimY, int salaTrono){
+       Mapa.crearMapa(salaTrono, dimX, dimY);
+    }*/
 
     private static void generarLlaves(){
         int numLlaves = 15;
