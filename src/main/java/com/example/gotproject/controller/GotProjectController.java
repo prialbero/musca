@@ -3,7 +3,6 @@ package com.example.gotproject.controller;
 import com.example.gotproject.*;
 import org.apache.log4j.Logger;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -50,7 +49,7 @@ public class GotProjectController {
             if(datos[0].equals("MAPA")){
                 alturaArbol=Integer.parseInt(datos[4]);
                 //crearMapa(Integer.parseInt(datos[1]), Integer.parseInt(datos[2]),Integer.parseInt(datos[3]));
-                generarLlaves();
+                //generarLlaves();
                 crearPuerta();
             }
             else{
@@ -72,22 +71,23 @@ public class GotProjectController {
         Mapa.procesar(maxTurnos);
     }
 
-    /*private static void crearMapa(int dimX, int dimY, int salaTrono){
-       Mapa.crearMapa(salaTrono, dimX, dimY);
-    }*/
+    @PostMapping(path="/mapa",consumes="application/json")
+    public synchronized ResponseEntity<String> crearMapa(@RequestBody Mapa m) {
+        Mapa.crearMapa(m.getDimX(), m.getDimY(),m.getSalaTrono());
+        return new ResponseEntity(HttpStatus.OK);
+    }
 
-    private static void generarLlaves(){
-        int numLlaves = 15;
-        int[] idLlaves = {17,25,19,29,13,7,1,11,5,21,3,23,9,27,15};
+    @PostMapping("/generarllaves")
+    private static void generarLlaves(@RequestParam("numLlaves") int numLlaves, @RequestParam("idLlaves") int[] idLlaves){
         combinacion = new Llave[numLlaves];
         for(int i=0; i<combinacion.length;i++){
             combinacion[i]=new Llave(idLlaves[i]);
         }
-
         //Generar las llaves en el mapa y distribuirlas
         int[] idSalasConLlave={3,4,6,8,9,10,11,12,13};
         Mapa.distribuirLlaves(idSalasConLlave);
     }
+
     private static void crearPuerta(){
         Puerta puerta = new Puerta();
         puerta.configurarPuerta(combinacion);
