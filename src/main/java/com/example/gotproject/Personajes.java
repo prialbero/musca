@@ -109,8 +109,8 @@ public abstract class Personajes {
                 direccion = direccionesP.peek().toString();
                 direccionesP.remove();
             }
-            this.salaActual = Mapa.crearMapa().CalcularCoord(salaActual, direccion);
+            this.salaActual = Mapa.getInstance().CalcularCoord(salaActual, direccion);
             this.turno += 1;
-            Mapa.crearMapa().insertarPersonaje(this);
+            Mapa.getInstance().insertarPersonaje(this);
     }
 }
