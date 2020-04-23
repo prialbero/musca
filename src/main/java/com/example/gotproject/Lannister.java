@@ -32,9 +32,7 @@ public class Lannister extends Personajes {
                 logger.info("Lannister suelta llave "+llaves.peek());
                 sala.setLlavesEnSala(llaves.pop());
             }
-
         }
-
     }
 
     //juego de llaves idéntico al generado para la cerradura de la puerta al Trono
@@ -43,7 +41,4 @@ public class Lannister extends Personajes {
             llaves.push(c[i]);
         }
     }
-
-
-
 }

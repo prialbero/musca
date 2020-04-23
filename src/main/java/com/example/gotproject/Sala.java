@@ -2,6 +2,7 @@ package com.example.gotproject;
 
 import org.apache.log4j.Logger;
 
+import java.rmi.RemoteException;
 import java.util.*;
 
 public class Sala {
