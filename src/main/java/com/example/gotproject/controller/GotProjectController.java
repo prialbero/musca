@@ -79,14 +79,11 @@ public class GotProjectController {
     }
 
     @PostMapping("/generarllaves")
-    private static void generarLlaves(@RequestParam("numLlaves") int numLlaves, @RequestParam("idLlaves") int[] idLlaves){
+    private static void generarLlaves(@RequestParam("numLlaves") int numLlaves, @RequestParam("idLlaves") int[] idLlaves, @RequestParam("idSalasConLlave") int[] idSalasConLlave){
         combinacion = new Llave[numLlaves];
         for(int i=0; i<combinacion.length;i++){
             combinacion[i]=new Llave(idLlaves[i]);
         }
-
-        //Generar las llaves en el mapa y distribuirlas
-        int[] idSalasConLlave={3,4,6,8,9,10,11,12,13};
         Mapa.distribuirLlaves(idSalasConLlave);
     }
     private static void crearPuerta(){
