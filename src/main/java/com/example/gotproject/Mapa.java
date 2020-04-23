@@ -3,26 +3,25 @@ package com.example.gotproject;
 import com.example.gotproject.exception.ExceptionMapa;
 import org.apache.log4j.Logger;
 
-
 import java.util.*;
 
 
 public class Mapa{
-    private static Sala matrizSala[][];
-    private static int dimX;
-    private static int dimY;
-    private static int cont;
-    private static int salaTrono;
+    private Sala matrizSala[][];
+    private int dimX;
+    private int dimY;
+    private int cont;
+    private int salaTrono;
     private static Mapa mapa = null;
 
-    final static Logger logger = Logger.getLogger(Mapa.class);
+    final Logger logger = Logger.getLogger(Mapa.class);
 
     public int getDimX() {
         return dimX;
     }
 
     public void setDimX(int dimX) {
-        Mapa.dimX = dimX;
+        this.dimX = dimX;
     }
 
     public int getDimY() {
@@ -30,7 +29,7 @@ public class Mapa{
     }
 
     public void setDimY(int dimY) {
-        Mapa.dimY = dimY;
+        this.dimY = dimY;
     }
 
     public int getSalaTrono() {
@@ -38,7 +37,15 @@ public class Mapa{
     }
 
     public void setSalaTrono(int salaTrono) {
-        Mapa.salaTrono = salaTrono;
+        this.salaTrono = salaTrono;
+    }
+
+    public Sala[][] getMatrizSala() {
+        return matrizSala;
+    }
+
+    public void setMatrizSala(Sala[][] matrizSala) {
+        this.matrizSala = matrizSala;
     }
 
     /** Patrón singleton
@@ -46,13 +53,13 @@ public class Mapa{
      * al ser estático se puede acceder desde cualquier punto del proyecto
      * desde las otras clases solo se debe hacer la llamada a Mapa.crearMapa();
      */
-    public synchronized static Mapa crearMapa(int dimX, int dimY,int salaTrono) {
+    public synchronized static Mapa getInstance(int dimX, int dimY,int salaTrono) {
         if (mapa == null) {
             mapa = new Mapa(dimX, dimY,salaTrono);
         }
         return mapa;
     }
-    public static Mapa crearMapa(){return mapa;}
+    public static Mapa getInstance(){return mapa;}
 
     /**Creación de las diferentes salas
     * el mapa tiene una matriz de salas
@@ -85,7 +92,7 @@ public class Mapa{
 
 
     //El mapa hace la generación de las llaves y las distribuye de 5 en 5 en las salas asignadas al principio
-    public static void distribuirLlaves(int[] idSalasLlaves){
+    public void distribuirLlaves(int[] idSalasLlaves){
         /**generación de las 30 llaves cuyos identificadores irán de 0 a 29
          *las llaves con id impar serán duplicadas: en total serán 45 llaves
          * conjunto de llaves ordenado por identificador
@@ -114,7 +121,7 @@ public class Mapa{
     }
 
     //insertar la puerta en la sala de Trono asignada al principio de la simulación
-    public static void insertarPuerta(Puerta puerta, int alturaArbol){
+    public void insertarPuerta(Puerta puerta, int alturaArbol){
         for(int fila=0; fila<dimX;fila++){
             for(int col=0; col<dimY;col++) {
                 if (matrizSala[fila][col].getIdSala() == salaTrono) {
@@ -126,7 +133,7 @@ public class Mapa{
     }
 
     //insertar el personaje en la sala
-    public static void  insertarPersonaje(Personajes personaje){
+    public void  insertarPersonaje(Personajes personaje){
         for(int fila=0; fila<dimX;fila++){
             for(int col=0; col<dimY;col++) {
                 if (matrizSala[fila][col].getIdSala() == personaje.getSalaActual()) {
@@ -179,31 +186,5 @@ public class Mapa{
     return id;
   }
 
-
-
-    /** El método procesar se ejecutará turno a turno, recorriendo el mapa desde la sala
-    * de entrada hasta la de salida y los personajes almacenados en cada sala ejecutarán
-    * sus acciones según orden de llegada
-    *
-     * La simulación terminará cuando: 1- algun personaje abra la puerta o 2- se alcance el máximo de turnos
-     *
-     */
-
-    public static void procesar(int maxTurnos) {
-        int t=0;
-        boolean puertaAbierta=false;
-        while (t<=maxTurnos || puertaAbierta==true) {
-            logger.info("(turno:"+t+")");
-            logger.info("(mapa:"+salaTrono+")");
-            for (int fila = 0; fila < dimX; fila++) {
-                for (int col = 0; col < dimY; col++) {
-                    matrizSala[fila][col].procesarTurno(t,salaTrono);
-                    //if(matrizSala[fila][col].getIdSala()==salaSalida && matrizSala[fila][col].getPuerta().estaAbierta()==true)
-                      //  puertaAbierta=true;
-                }
-            }
-            t++;
-        }
-    }
 
 }

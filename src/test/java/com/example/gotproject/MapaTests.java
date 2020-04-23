@@ -21,14 +21,14 @@ public class MapaTests {
     @Mock
     private Sala sala;
     @InjectMocks
-    private Mapa mapa = Mapa.crearMapa();
+    private Mapa mapa = Mapa.getInstance();
 
 
     @Test
     public void testProcesar() throws Exception {
         Mockito.doNothing().when(this.sala).procesarTurno(anyInt(),anyInt());
 
-        mapa.procesar(5);
+        //mapa.procesar(5);
         this.sala.procesarTurno(1,9); //para solucionar el wanted but not invoked
         Mockito.verify(this.sala).procesarTurno(anyInt(),anyInt());
     }

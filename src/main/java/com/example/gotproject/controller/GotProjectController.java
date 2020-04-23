@@ -69,12 +69,12 @@ public class GotProjectController {
             }
         }
         logger.info("datos csv"+datosFichero);
-        Mapa.procesar(maxTurnos);
+        //Mapa.procesar(maxTurnos);
     }
 
     @PostMapping(path="/mapa",consumes="application/json")
     public synchronized ResponseEntity<String> crearMapa(@RequestBody Mapa m) {
-        Mapa.crearMapa(m.getDimX(), m.getDimY(),m.getSalaTrono());
+        Mapa.getInstance(m.getDimX(), m.getDimY(),m.getSalaTrono());
         return new ResponseEntity(HttpStatus.OK);
     }
 
@@ -84,7 +84,7 @@ public class GotProjectController {
         for(int i=0; i<combinacion.length;i++){
             combinacion[i]=new Llave(idLlaves[i]);
         }
-        Mapa.distribuirLlaves(idSalasConLlave);
+        Mapa.getInstance().distribuirLlaves(idSalasConLlave);
     }
     private static void crearPuerta(){
         Puerta puerta = new Puerta();
@@ -93,7 +93,7 @@ public class GotProjectController {
         puerta.cerrarPuerta();
 
         //se añade la puerta al mapa (almacenada en la sala de salida del mapa)
-        Mapa.insertarPuerta(puerta, alturaArbol);
+        Mapa.getInstance().insertarPuerta(puerta, alturaArbol);
 
         //se prueba la llave  en la puerta
         Llave llave =new Llave(3);
@@ -123,7 +123,7 @@ public class GotProjectController {
                 Dir.E, Dir.E, Dir.E, Dir.E, Dir.E};
         lannisterT.asignarRuta(direccionesT);
         lannisterT.llavesInicio(combinacion);
-        Mapa.insertarPersonaje(lannisterT);
+        Mapa.getInstance().insertarPersonaje(lannisterT);
         logRuta(direccionesT,marca);
     }
 
@@ -136,7 +136,7 @@ public class GotProjectController {
         direccionesE = new Dir[] {Dir.S, Dir.S, Dir.E, Dir.E, Dir.N, Dir.E, Dir.N, Dir.E, Dir.S,
                 Dir.E, Dir.S, Dir.S, Dir.O, Dir.S, Dir.E, Dir.E};
         starkE.asignarRuta(direccionesE);
-        Mapa.insertarPersonaje(starkE);
+        Mapa.getInstance().insertarPersonaje(starkE);
         logRuta(direccionesE,marca);
     }
 
@@ -147,7 +147,7 @@ public class GotProjectController {
         direccionesD = new Dir[] {Dir.E, Dir.S, Dir.S, Dir.S, Dir.O, Dir.S, Dir.E, Dir.E, Dir.N,
                 Dir.E, Dir.S, Dir.S, Dir.E, Dir.E};
         targaryenD.asignarRuta(direccionesD);
-        Mapa.insertarPersonaje(targaryenD);
+        Mapa.getInstance().insertarPersonaje(targaryenD);
         logRuta(direccionesD,marca);
     }
 
@@ -158,7 +158,7 @@ public class GotProjectController {
         direccionesR = new Dir[] {Dir.N, Dir.N, Dir.N, Dir.E, Dir.S, Dir.E, Dir.N, Dir.N,
                 Dir.E, Dir.N, Dir.E, Dir.E, Dir.S, Dir.S, Dir.S, Dir.S, Dir.S};
         baratheonR.asignarRuta(direccionesR);
-        Mapa.insertarPersonaje(baratheonR);
+        Mapa.getInstance().insertarPersonaje(baratheonR);
         logRuta(direccionesR,marca);
     }
 }
