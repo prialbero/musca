@@ -1,2111 +1,1064 @@
-[2020-04-23 09:16:49] [ INFO ] [GotprojectApplication:113] Ruta: L: N N O N N O S O O N N O S S S S S E E E E E 
-[2020-04-23 09:16:49] [ INFO ] [GotprojectApplication:113] Ruta: S: S S E E N E N E S E S S O S E E 
-[2020-04-23 09:16:49] [ INFO ] [GotprojectApplication:113] Ruta: B: N N N E S E N N E N E E S S S S S 
-[2020-04-23 09:16:49] [ INFO ] [GotprojectApplication:113] Ruta: T: E S S S O S E E N E S S E E 
-[2020-04-23 09:16:49] [ INFO ] [GotprojectApplication:68] datos csv[[Ljava.lang.String;@6aaf21a1, [Ljava.lang.String;@5e27e22, [Ljava.lang.String;@685c8224, [Ljava.lang.String;@7a41fe26, [Ljava.lang.String;@69706ae6]
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:0)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:1)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:2)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual30turno actual2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:3)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual0turno actual3
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@49bebfdd sala actual0turno actual3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual24turno actual3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:4)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@49bebfdd sala actual1turno actual4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual6turno actual4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual18turno actual4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:5)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@49bebfdd sala actual7turno actual5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual12turno actual5
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual12turno actual5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:6)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@49bebfdd sala actual13turno actual6
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual13turno actual6
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual13turno actual6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:7)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual14turno actual7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@49bebfdd sala actual19turno actual7
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual19turno actual7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:8)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual8turno actual8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@49bebfdd sala actual18turno actual8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual20turno actual8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:9)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual9turno actual9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual14turno actual9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@49bebfdd sala actual24turno actual9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:10)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual3turno actual10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual8turno actual10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@49bebfdd sala actual25turno actual10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:11)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual4turno actual11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual9turno actual11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@49bebfdd sala actual26turno actual11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:12)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual3turno actual12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual10turno actual12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@49bebfdd sala actual20turno actual12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:13)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual4turno actual13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual11turno actual13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@49bebfdd sala actual21turno actual13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:14)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual5turno actual14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual17turno actual14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@49bebfdd sala actual27turno actual14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:15)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual11turno actual15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual23turno actual15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@49bebfdd sala actual33turno actual15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:16)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual17turno actual16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual22turno actual16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@49bebfdd sala actual34turno actual16
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:49] [ INFO ] [Mapa:196] (turno:17)
-[2020-04-23 09:16:49] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:49] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:50] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual23turno actual17
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:50] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual28turno actual17
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:50] [ INFO ] [Mapa:196] (turno:18)
-[2020-04-23 09:16:50] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:50] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@671a2a7 sala actual29turno actual18
-[2020-04-23 09:16:50] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual29turno actual18
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:50] [ INFO ] [Mapa:196] (turno:19)
-[2020-04-23 09:16:50] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:50] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual29turno actual19
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:50] [ INFO ] [Mapa:196] (turno:20)
-[2020-04-23 09:16:50] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:50] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual29turno actual20
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:50] [ INFO ] [Mapa:196] (turno:21)
-[2020-04-23 09:16:50] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:50] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual29turno actual21
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:50] [ INFO ] [Mapa:196] (turno:22)
-[2020-04-23 09:16:50] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:50] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual29turno actual22
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:50] [ INFO ] [Mapa:196] (turno:23)
-[2020-04-23 09:16:50] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:50] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual29turno actual23
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:50] [ INFO ] [Mapa:196] (turno:24)
-[2020-04-23 09:16:50] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:50] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual29turno actual24
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:16:50] [ INFO ] [Mapa:196] (turno:25)
-[2020-04-23 09:16:50] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:16:50] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@1f209f0 sala actual29turno actual25
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:16:50] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [GotprojectApplication:116] Ruta: L: N N O N N O S O O N N O S S S S S E E E E E 
-[2020-04-23 09:20:14] [ INFO ] [GotprojectApplication:116] Ruta: S: S S E E N E N E S E S S O S E E 
-[2020-04-23 09:20:14] [ INFO ] [GotprojectApplication:116] Ruta: B: N N N E S E N N E N E E S S S S S 
-[2020-04-23 09:20:14] [ INFO ] [GotprojectApplication:116] Ruta: T: E S S S O S E E N E S S E E 
-[2020-04-23 09:20:14] [ INFO ] [GotprojectApplication:70] datos csv[[Ljava.lang.String;@43e028d9, [Ljava.lang.String;@3cd76daf, [Ljava.lang.String;@6d0997cd, [Ljava.lang.String;@2ee5e990, [Ljava.lang.String;@6c81aa75]
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:0)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:1)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:2)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual30turno actual2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:3)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual0turno actual3
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@5aa92869 sala actual0turno actual3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual24turno actual3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:4)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@5aa92869 sala actual1turno actual4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual6turno actual4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual18turno actual4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:5)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@5aa92869 sala actual7turno actual5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual12turno actual5
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Robbert [com.example.gotproject.Llave@37]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual12turno actual5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:6)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Daenerys [com.example.gotproject.Llave@3a]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@5aa92869 sala actual13turno actual6
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36, com.example.gotproject.Llave@3a]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual13turno actual6
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Robbert [com.example.gotproject.Llave@37, com.example.gotproject.Llave@3b]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual13turno actual6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:7)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual14turno actual7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@5aa92869 sala actual19turno actual7
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual19turno actual7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:8)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36, com.example.gotproject.Llave@3a, com.example.gotproject.Llave@29]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual8turno actual8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@5aa92869 sala actual18turno actual8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual20turno actual8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:9)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36, com.example.gotproject.Llave@3a, com.example.gotproject.Llave@29, com.example.gotproject.Llave@2c]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual9turno actual9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual14turno actual9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@5aa92869 sala actual24turno actual9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:10)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36, com.example.gotproject.Llave@3a, com.example.gotproject.Llave@29, com.example.gotproject.Llave@2c, com.example.gotproject.Llave@1f]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual3turno actual10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Robbert [com.example.gotproject.Llave@37, com.example.gotproject.Llave@3b, com.example.gotproject.Llave@2a]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual8turno actual10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@5aa92869 sala actual25turno actual10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:11)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36, com.example.gotproject.Llave@3a, com.example.gotproject.Llave@29, com.example.gotproject.Llave@2c, com.example.gotproject.Llave@1f, com.example.gotproject.Llave@22]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual4turno actual11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Robbert [com.example.gotproject.Llave@37, com.example.gotproject.Llave@3b, com.example.gotproject.Llave@2a, com.example.gotproject.Llave@2d]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual9turno actual11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@5aa92869 sala actual26turno actual11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:12)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Robbert [com.example.gotproject.Llave@37, com.example.gotproject.Llave@3b, com.example.gotproject.Llave@2a, com.example.gotproject.Llave@2d, com.example.gotproject.Llave@20]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual3turno actual12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36, com.example.gotproject.Llave@3a, com.example.gotproject.Llave@29, com.example.gotproject.Llave@2c, com.example.gotproject.Llave@1f, com.example.gotproject.Llave@22, com.example.gotproject.Llave@30]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual10turno actual12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@5aa92869 sala actual20turno actual12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:13)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Robbert [com.example.gotproject.Llave@37, com.example.gotproject.Llave@3b, com.example.gotproject.Llave@2a, com.example.gotproject.Llave@2d, com.example.gotproject.Llave@20, com.example.gotproject.Llave@23]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual4turno actual13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36, com.example.gotproject.Llave@3a, com.example.gotproject.Llave@29, com.example.gotproject.Llave@2c, com.example.gotproject.Llave@1f, com.example.gotproject.Llave@22, com.example.gotproject.Llave@30, com.example.gotproject.Llave@33]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual11turno actual13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@5aa92869 sala actual21turno actual13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:14)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual5turno actual14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual17turno actual14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@5aa92869 sala actual27turno actual14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:15)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Personajes:99] llaves Robbert [com.example.gotproject.Llave@37, com.example.gotproject.Llave@3b, com.example.gotproject.Llave@2a, com.example.gotproject.Llave@2d, com.example.gotproject.Llave@20, com.example.gotproject.Llave@23, com.example.gotproject.Llave@34]
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual11turno actual15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual23turno actual15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@5aa92869 sala actual33turno actual15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:16)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual17turno actual16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual22turno actual16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@5aa92869 sala actual34turno actual16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:17)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual23turno actual17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual28turno actual17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:18)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@416b64f3 sala actual29turno actual18
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual29turno actual18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:19)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual29turno actual19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:20)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual29turno actual20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:21)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual29turno actual21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:22)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual29turno actual22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:23)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual29turno actual23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:24)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual29turno actual24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
-[2020-04-23 09:20:14] [ INFO ] [Mapa:196] (turno:25)
-[2020-04-23 09:20:14] [ INFO ] [Mapa:197] (mapa:35)
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 0
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 1
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 2
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 3
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 4
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 5
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 6
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 7
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 8
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 9
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 10
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 11
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 12
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 13
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 14
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 15
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 16
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 17
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 18
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 19
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 20
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 21
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 22
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 23
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 24
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 26
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 27
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 28
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 29
-[2020-04-23 09:20:14] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@c57a81c sala actual29turno actual25
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 30
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 31
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 32
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 33
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 34
-[2020-04-23 09:20:14] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [GotprojectApplication:117] Ruta: L: N N O N N O S O O N N O S S S S S E E E E E 
+[2020-04-23 09:25:49] [ INFO ] [GotprojectApplication:117] Ruta: S: S S E E N E N E S E S S O S E E 
+[2020-04-23 09:25:49] [ INFO ] [GotprojectApplication:117] Ruta: B: N N N E S E N N E N E E S S S S S 
+[2020-04-23 09:25:49] [ INFO ] [GotprojectApplication:117] Ruta: T: E S S S O S E E N E S S E E 
+[2020-04-23 09:25:49] [ INFO ] [GotprojectApplication:71] datos csv[[Ljava.lang.String;@78a645f4, [Ljava.lang.String;@7d09dcb2, [Ljava.lang.String;@67265e69, [Ljava.lang.String;@3145403, [Ljava.lang.String;@49d73870]
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:0)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:1)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:2)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual30turno actual2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:3)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual0turno actual3
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@361a0a0e sala actual0turno actual3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual24turno actual3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:4)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@361a0a0e sala actual1turno actual4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual6turno actual4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual18turno actual4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:5)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@361a0a0e sala actual7turno actual5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual12turno actual5
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Robbert [com.example.gotproject.Llave@37]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual12turno actual5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:6)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Daenerys [com.example.gotproject.Llave@3a]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@361a0a0e sala actual13turno actual6
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36, com.example.gotproject.Llave@3a]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual13turno actual6
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Robbert [com.example.gotproject.Llave@37, com.example.gotproject.Llave@3b]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual13turno actual6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:7)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual14turno actual7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@361a0a0e sala actual19turno actual7
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual19turno actual7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:8)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36, com.example.gotproject.Llave@3a, com.example.gotproject.Llave@29]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual8turno actual8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@361a0a0e sala actual18turno actual8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual20turno actual8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:9)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36, com.example.gotproject.Llave@3a, com.example.gotproject.Llave@29, com.example.gotproject.Llave@2c]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual9turno actual9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual14turno actual9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@361a0a0e sala actual24turno actual9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:10)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36, com.example.gotproject.Llave@3a, com.example.gotproject.Llave@29, com.example.gotproject.Llave@2c, com.example.gotproject.Llave@1f]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual3turno actual10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Robbert [com.example.gotproject.Llave@37, com.example.gotproject.Llave@3b, com.example.gotproject.Llave@2a]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual8turno actual10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@361a0a0e sala actual25turno actual10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:11)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36, com.example.gotproject.Llave@3a, com.example.gotproject.Llave@29, com.example.gotproject.Llave@2c, com.example.gotproject.Llave@1f, com.example.gotproject.Llave@22]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual4turno actual11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Robbert [com.example.gotproject.Llave@37, com.example.gotproject.Llave@3b, com.example.gotproject.Llave@2a, com.example.gotproject.Llave@2d]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual9turno actual11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@361a0a0e sala actual26turno actual11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:12)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Robbert [com.example.gotproject.Llave@37, com.example.gotproject.Llave@3b, com.example.gotproject.Llave@2a, com.example.gotproject.Llave@2d, com.example.gotproject.Llave@20]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual3turno actual12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36, com.example.gotproject.Llave@3a, com.example.gotproject.Llave@29, com.example.gotproject.Llave@2c, com.example.gotproject.Llave@1f, com.example.gotproject.Llave@22, com.example.gotproject.Llave@30]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual10turno actual12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@361a0a0e sala actual20turno actual12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:13)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Robbert [com.example.gotproject.Llave@37, com.example.gotproject.Llave@3b, com.example.gotproject.Llave@2a, com.example.gotproject.Llave@2d, com.example.gotproject.Llave@20, com.example.gotproject.Llave@23]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual4turno actual13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Eddard [com.example.gotproject.Llave@26, com.example.gotproject.Llave@36, com.example.gotproject.Llave@3a, com.example.gotproject.Llave@29, com.example.gotproject.Llave@2c, com.example.gotproject.Llave@1f, com.example.gotproject.Llave@22, com.example.gotproject.Llave@30, com.example.gotproject.Llave@33]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual11turno actual13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@361a0a0e sala actual21turno actual13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:14)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual5turno actual14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual17turno actual14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@361a0a0e sala actual27turno actual14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:15)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Personajes:99] llaves Robbert [com.example.gotproject.Llave@37, com.example.gotproject.Llave@3b, com.example.gotproject.Llave@2a, com.example.gotproject.Llave@2d, com.example.gotproject.Llave@20, com.example.gotproject.Llave@23, com.example.gotproject.Llave@34]
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual11turno actual15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual23turno actual15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@361a0a0e sala actual33turno actual15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:16)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual17turno actual16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual22turno actual16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Targaryen@361a0a0e sala actual34turno actual16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:17)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual23turno actual17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual28turno actual17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:18)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Baratheon@2932d282 sala actual29turno actual18
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual29turno actual18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:19)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual29turno actual19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:20)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual29turno actual20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:21)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual29turno actual21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:22)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual29turno actual22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:23)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual29turno actual23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:24)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual29turno actual24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35
+[2020-04-23 09:25:49] [ INFO ] [Mapa:196] (turno:25)
+[2020-04-23 09:25:49] [ INFO ] [Mapa:197] (mapa:35)
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 0
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 1
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 2
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 3
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 4
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 5
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 6
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 7
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 8
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 9
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 10
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 11
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 12
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 13
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 14
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 15
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 16
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 17
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 18
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 19
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 20
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 21
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 22
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 23
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 24
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 26
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 27
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 28
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 29
+[2020-04-23 09:25:49] [ INFO ] [Personajes:84] personaje: com.example.gotproject.Stark@5e3530c9 sala actual29turno actual25
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 30
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 31
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 32
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 33
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 34
+[2020-04-23 09:25:49] [ INFO ] [Sala:59] sala 35

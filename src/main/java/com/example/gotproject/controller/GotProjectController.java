@@ -3,6 +3,7 @@ package com.example.gotproject.controller;
 import com.example.gotproject.*;
 import org.apache.log4j.Logger;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -83,11 +84,11 @@ public class GotProjectController {
         for(int i=0; i<combinacion.length;i++){
             combinacion[i]=new Llave(idLlaves[i]);
         }
+
         //Generar las llaves en el mapa y distribuirlas
         int[] idSalasConLlave={3,4,6,8,9,10,11,12,13};
         Mapa.distribuirLlaves(idSalasConLlave);
     }
-
     private static void crearPuerta(){
         Puerta puerta = new Puerta();
         puerta.configurarPuerta(combinacion);
