@@ -30,7 +30,7 @@ public class SalaTests {
 
 
     @Test
-    public void testParaProcesarTodaLaSalaCuandoEsteLlenaDePersonajes() {
+    public void testParaProcesarTodaLaSalaCuandoEsteLlenaDePersonajes() throws Exception {
 
         Mockito.doReturn(7).when(this.personajesEnSala).size();
         Mockito.doReturn(this.personajes).when(this.personajesEnSala).peek();
